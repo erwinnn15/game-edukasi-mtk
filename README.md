@@ -1,12 +1,17 @@
 ###################
-Aplikasi Game Edukasi Matematika
-##################
+Aplikasi Game Edukasi Matematika SD
+###################
+
+Aplikasi ini dirancang menggunakan Construct versi 2 dengan prinsip mengikuti kurikulum yang sedang berjalan.
 
 *******************
-Silahkan download
-Nama : Rika Efendi - Teknik Informatika UKI Paulus Makassar
+Develop by Erwin, S.Kom
 *******************
 
-*******************
-2024
-*******************
+***************
+Untuk info lebih lanjut silahkan hubungi saya
+***************
+
+***************
+Terima Kasih || Titik Balik Teknologi
+***************
