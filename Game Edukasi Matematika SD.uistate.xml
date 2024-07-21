@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Kuis Bilangan Operasi</layout>
+        <layout order="1">Skor Materi Operasi</layout>
+        <layout order="2">Penjelasan Soal Operasi 2</layout>
+        <layout order="3">Penjelasan Soal Pecahan 1</layout>
+        <layout order="4">Penjelasan Soal Pecahan 2</layout>
+        <layout order="5">Pembagian Pecahan</layout>
+        <layout order="6">Penjelasan Soal Operasi 1</layout>
+        <layout order="7">Jawaban Salah Operasi</layout>
+        <layout order="8">Kuis Pecahan No 1</layout>
+        <layout order="9">Kuis Bilangan Operasi 2</layout>
+        <layout order="10">Kuis Pecahan No 2</layout>
+        <layout order="20">Penjelasan KPK No 1</layout>
+        <layout order="21">Penjelasan KPK No 2</layout>
+        <layout order="22">Bilangan Prima</layout>
+        <layout order="23">Kelipatan Faktor</layout>
+        <layout order="24">Home Layout</layout>
+        <layout active="1" order="29">Kuis KPK No 1</layout>
+        <layout order="30">Kuis KPK No 2</layout>
+        <event-sheet order="11">EPenjelasan Pecahan No 1</event-sheet>
+        <event-sheet order="12">EPenjelasan Pecahan No 2</event-sheet>
+        <event-sheet order="13">ESalahJawabanOperasi</event-sheet>
+        <event-sheet order="14">EPenjelasanOperasi1</event-sheet>
+        <event-sheet order="15">EPenjelasanOperasi2</event-sheet>
+        <event-sheet order="16">Kuis Pecahan No 1</event-sheet>
+        <event-sheet order="17">Kuis Pecahan No 2</event-sheet>
+        <event-sheet order="18">Kuis Bilangan Operasi</event-sheet>
+        <event-sheet order="19">Kuis Bilangan Operasi 2</event-sheet>
+        <event-sheet order="25">EPenjelasan KPK No 1</event-sheet>
+        <event-sheet order="26">EPenjelasan KPK No 2</event-sheet>
+        <event-sheet order="27">Kuis KPK No 1</event-sheet>
+        <event-sheet order="28">Kuis KPK No 2</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Materi Pecahan/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Materi/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Kuis/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/" />
+        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Kuis/" />
+        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Materi/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/" />
+        <folder expanded="1" path="layout-folder/Materi Bangun Datar/Kuis/" />
+        <folder expanded="1" path="layout-folder/Materi Bangun Datar/Materi/" />
+        <folder expanded="0" path="layout-folder/Materi Data/" />
+        <folder expanded="1" path="layout-folder/Materi Data/Kuis/" />
+        <folder expanded="1" path="layout-folder/Materi Data/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Soal/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Penjelasan/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Skor/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/Pecahan/" />
+        <folder expanded="1" path="event-folder/Pecahan/Materi/" />
+        <folder expanded="1" path="event-folder/Pecahan/Kuis/" />
+        <folder expanded="1" path="event-folder/Pecahan/Penjelasan/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan/Materi/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan/Kuis/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan/Penjelasan/" />
+        <folder expanded="0" path="event-folder/Panjang Berat/" />
+        <folder expanded="1" path="event-folder/Panjang Berat/Materi/" />
+        <folder expanded="1" path="event-folder/Panjang Berat/Kuis/" />
+        <folder expanded="0" path="event-folder/Bangun Datar/" />
+        <folder expanded="1" path="event-folder/Bangun Datar/Materi/" />
+        <folder expanded="1" path="event-folder/Bangun Datar/Kuis/" />
+        <folder expanded="0" path="event-folder/Data/" />
+        <folder expanded="1" path="event-folder/Data/Materi/" />
+        <folder expanded="1" path="event-folder/Data/Kuis/" />
+        <folder expanded="0" path="event-folder/Bilangan/" />
+        <folder expanded="1" path="event-folder/Bilangan/Materi/" />
+        <folder expanded="1" path="event-folder/Bilangan/Kuis/" />
+        <folder expanded="1" path="event-folder/Bilangan/Penjelasan/" />
+        <folder expanded="1" path="event-folder/Bilangan/Skor/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/background/" />
+        <folder expanded="1" path="animation-folder/btnKuis/" />
+        <folder expanded="1" path="animation-folder/btnMateri/" />
+        <folder expanded="1" path="animation-folder/btnClose/" />
+        <folder expanded="1" path="animation-folder/btnMusik/" />
+        <folder expanded="1" path="animation-folder/judulGame/" />
+        <folder expanded="1" path="animation-folder/btnMusikPlay/" />
+        <folder expanded="1" path="animation-folder/backgroundMateri/" />
+        <folder expanded="1" path="animation-folder/judulMateriPecahan/" />
+        <folder expanded="1" path="animation-folder/papaTulis/" />
+        <folder expanded="1" path="animation-folder/backgroundListMateri/" />
+        <folder expanded="1" path="animation-folder/btnBilangan/" />
+        <folder expanded="1" path="animation-folder/judulListMateri/" />
+        <folder expanded="1" path="animation-folder/btnPecahan/" />
+        <folder expanded="1" path="animation-folder/btnKFB/" />
+        <folder expanded="1" path="animation-folder/btnKembali/" />
+        <folder expanded="1" path="animation-folder/btnHome/" />
+        <folder expanded="1" path="animation-folder/btnPanjangBerat/" />
+        <folder expanded="1" path="animation-folder/materiPecahanKe1/" />
+        <folder expanded="1" path="animation-folder/btnKembaliKeMateri/" />
+        <folder expanded="1" path="animation-folder/materiBilangan/" />
+        <folder expanded="1" path="animation-folder/judulMateriBilangan/" />
+        <folder expanded="1" path="animation-folder/materiPecahan2/" />
+        <folder expanded="1" path="animation-folder/nextMateri/" />
+        <folder expanded="1" path="animation-folder/penjumlahan/" />
+        <folder expanded="1" path="animation-folder/background2/" />
+        <folder expanded="1" path="animation-folder/btnKembali2/" />
+        <folder expanded="1" path="animation-folder/jumlah2/" />
+        <folder expanded="1" path="animation-folder/penjelasan1/" />
+        <folder expanded="1" path="animation-folder/backgroundKuis/" />
+        <folder expanded="1" path="animation-folder/backgroundListKuis/" />
+        <folder expanded="1" path="animation-folder/titleKuis/" />
+        <folder expanded="1" path="animation-folder/papanKuis/" />
+        <folder expanded="1" path="animation-folder/soalke1/" />
+        <folder expanded="1" path="animation-folder/tombolKembali/" />
+        <folder expanded="1" path="animation-folder/layoutJawaban/" />
+        <folder expanded="1" path="animation-folder/papan_skor/" />
+        <folder expanded="1" path="animation-folder/btnBangunDatar/" />
+        <folder expanded="1" path="animation-folder/btnData/" />
+        <folder expanded="1" path="animation-folder/titlePecahan/" />
+        <folder expanded="1" path="animation-folder/materiPecahan1/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan1/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan2/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan3/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan4/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan5/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan6/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan7/" />
+        <folder expanded="1" path="animation-folder/kelipatanFaktorTitle/" />
+        <folder expanded="1" path="animation-folder/titlePanjangBerat/" />
+        <folder expanded="1" path="animation-folder/titleBangunDatar/" />
+        <folder expanded="1" path="animation-folder/JudulData/" />
+        <folder expanded="1" path="animation-folder/materiData1/" />
+        <folder expanded="1" path="animation-folder/materiData2/" />
+        <folder expanded="1" path="animation-folder/materiData3/" />
+        <folder expanded="1" path="animation-folder/materiBangunDatar1/" />
+        <folder expanded="1" path="animation-folder/materiBangunDatar2/" />
+        <folder expanded="1" path="animation-folder/materiBangunDatar3/" />
+        <folder expanded="1" path="animation-folder/materiPanjang1/" />
+        <folder expanded="1" path="animation-folder/materiPanjang2/" />
+        <folder expanded="1" path="animation-folder/materiKPK1/" />
+        <folder expanded="1" path="animation-folder/materiKPK2/" />
+        <folder expanded="1" path="animation-folder/materiKPK3/" />
+        <folder expanded="1" path="animation-folder/mengenalPecahan1/" />
+        <folder expanded="1" path="animation-folder/materiBilPecahan8/" />
+        <folder expanded="1" path="animation-folder/titlePecahan2/" />
+        <folder expanded="1" path="animation-folder/mengurutkanPecahan/" />
+        <folder expanded="1" path="animation-folder/DataKe1/" />
+        <folder expanded="1" path="animation-folder/DataKe2/" />
+        <folder expanded="1" path="animation-folder/MateriBangunKe1/" />
+        <folder expanded="1" path="animation-folder/MateriBangunKe2/" />
+        <folder expanded="1" path="animation-folder/IMGmateriPecahanCampuran/" />
+        <folder expanded="1" path="animation-folder/mat4PenjumlahanPecahan/" />
+        <folder expanded="1" path="animation-folder/Mat5Pecahan/" />
+        <folder expanded="1" path="animation-folder/Mat6Pecahan/" />
+        <folder expanded="1" path="animation-folder/Mat7Pecahan/" />
+        <folder expanded="1" path="animation-folder/Mat2PengukuranBerat/" />
+        <folder expanded="1" path="animation-folder/Mat2PengukuranBeratReal/" />
+        <folder expanded="1" path="animation-folder/Mat2BangunDatar/" />
+        <folder expanded="1" path="animation-folder/Mat3HubunganGaris/" />
+        <folder expanded="1" path="animation-folder/KuisNo1Pecahan/" />
+        <folder expanded="1" path="animation-folder/No1OpsiAPecahan/" />
+        <folder expanded="1" path="animation-folder/No1OpsiBPecahan/" />
+        <folder expanded="1" path="animation-folder/No1OpsiCPecahan/" />
+        <folder expanded="1" path="animation-folder/jawabanPecahan/" />
+        <folder expanded="1" path="animation-folder/No2SoalPecahan/" />
+        <folder expanded="1" path="animation-folder/No1KPK/" />
+        <folder expanded="1" path="animation-folder/No2KPK/" />
+        <folder expanded="1" path="animation-folder/bgPenjelasan/" />
+        <folder expanded="1" path="animation-folder/papanPenjelasan/" />
+        <folder expanded="1" path="animation-folder/btnNextSoal/" />
+        <folder expanded="1" path="animation-folder/jawabanBenar/" />
+        <folder expanded="1" path="animation-folder/nextSoal/" />
+        <folder expanded="1" path="animation-folder/btnLihatSkor/" />
+        <folder expanded="1" path="animation-folder/bgSalah/" />
+        <folder expanded="1" path="animation-folder/tandaSalah/" />
+        <folder expanded="1" path="animation-folder/btnKeSoal/" />
+    </folders-expanded>
+</c2uistate>

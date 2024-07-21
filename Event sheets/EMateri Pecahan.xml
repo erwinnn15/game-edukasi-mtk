@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EMateri Pecahan</name>
+    <events>
+        <event-group description="" sid="529086413456323" title="Materi">
+            <sub-events>
+                <event-group description="" sid="832055676477867" title="Sub-Materi">
+                    <sub-events>
+                        <event-group description="" sid="962156692714848" title="Materi Pertama">
+                            <sub-events>
+                                <event-block sid="560923781414404">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="182810583644767" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="350845821351771" type="System">
+                                            <param id="0" name="Layout">Mengenal Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="838365382684547">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="207377618602172" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="251868926758102" type="System">
+                                            <param id="0" name="Layout">Mengurutkan Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="499864327213547">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="638541823310349" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="209393244801363" type="System">
+                                            <param id="0" name="Layout">Pecahan Campuran</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="623083653433414">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="893100490955103" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="455887688084951" type="System">
+                                            <param id="0" name="Layout">Penjumlahan Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="510557831697992">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="826559907660619" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan5</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="118462001915573" type="System">
+                                            <param id="0" name="Layout">Pengurangan Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="333000309333356">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="522978054314042" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan6</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="830837128799626" type="System">
+                                            <param id="0" name="Layout">Perkalian Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="235906431593442">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="834209397168661" type="Touch">
+                                            <param id="0" name="Object">materiBilPecahan7</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="214107255192720" type="System">
+                                            <param id="0" name="Layout">Pembagian Pecahan</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-block sid="147590872163868">
+            <conditions>
+                <condition id="3" name="On touched object" sid="660855819635828" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="423651004955031" type="System">
+                    <param id="0" name="Layout">List Materi Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="368025990791739" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

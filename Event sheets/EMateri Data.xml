@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EMateri Data</name>
+    <events>
+        <event-block sid="893169674060519">
+            <conditions>
+                <condition id="3" name="On touched object" sid="275809474048319" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="432630768661987" type="System">
+                    <param id="0" name="Layout">List Materi Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="898902875009410" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="621694324090042">
+            <conditions>
+                <condition id="3" name="On touched object" sid="629091341449106" type="Touch">
+                    <param id="0" name="Object">materiData1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="855137915575856" type="System">
+                    <param id="0" name="Layout">Mengenal Data</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="719815194611985">
+            <conditions>
+                <condition id="3" name="On touched object" sid="430172453893217" type="Touch">
+                    <param id="0" name="Object">materiData2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="240683916744108" type="System">
+                    <param id="0" name="Layout">Membaca Data</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="810760260539250">
+            <conditions>
+                <condition id="3" name="On touched object" sid="320608692532951" type="Touch">
+                    <param id="0" name="Object">materiBangunDatar3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="868878092605633" type="System">
+                    <param id="0" name="Layout">Hubungan Antar Garis</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

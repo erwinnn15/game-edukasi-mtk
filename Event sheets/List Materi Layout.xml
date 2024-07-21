@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>List Materi Layout</name>
+    <events>
+        <event-group description="" sid="243610821039261" title="btnHover">
+            <sub-events>
+                <event-group description="" sid="352113189507980" title="Data">
+                    <sub-events>
+                        <event-block sid="406927485009752">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="548473327320802" type="Touch">
+                                    <param id="0" name="Object">btnData</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="997541480197130" type="System">
+                                    <param id="0" name="Layout">Data Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="306949986364738">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="591597280800338" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="211110868767841" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="127363721005486" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="549245361621230">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="287930235383777" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="472167041266146" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="790763381208413" title="Bangun Datar">
+                    <sub-events>
+                        <event-block sid="754602276173650">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="887561845458006" type="Touch">
+                                    <param id="0" name="Object">btnBangunDatar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="108696110137625" type="System">
+                                    <param id="0" name="Layout">Bangun Datar Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="273407923670832">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="285912012495837" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="918436114708204" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="197768773651719" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="353923750825193">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="453930775569401" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="332459230766841" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="556398772303936" title="Panjang Berat">
+                    <sub-events>
+                        <event-block sid="709159064165646">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="759707626335503" type="Touch">
+                                    <param id="0" name="Object">btnPanjangBerat</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="799513581756831" type="System">
+                                    <param id="0" name="Layout">Panjang Berat Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="898985815656262">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="357338935372359" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="968362664760582" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="909480468574161" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="951952826791387">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="422052800100134" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="197383857111635" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="863733064420285" title="Materi KPK">
+                    <sub-events>
+                        <event-block sid="273024940007020">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="742323633078553" type="Touch">
+                                    <param id="0" name="Object">btnKFB</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="451062152217838" type="System">
+                                    <param id="0" name="Layout">Kelipatan Faktor Bilangan Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="397198127019304">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="334427082246600" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="317795027750504" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="215892762646206" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="990747022056021">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="509999613379888" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="862890543896397" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="769140732162181" title="Materi Pecahan">
+                    <sub-events>
+                        <event-block sid="649256432140069">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="804057313683592" type="Touch">
+                                    <param id="0" name="Object">btnPecahan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="754507043038294" type="System">
+                                    <param id="0" name="Layout">Pecahan Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="184943982174804">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="580423003685734" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="200496419234085" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="251744588320691" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="193284565106377">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="501959903799275" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="590904044439358" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="967954248757746" title="btn Layout">
+                    <sub-events>
+                        <event-block sid="368007719091611">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="985293847040661" type="Touch">
+                                    <param id="0" name="Object">btnBilangan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="129967406672909" type="System">
+                                    <param id="0" name="Layout">Materi Bilangan Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="550621927555599">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="348903617221490" type="Touch">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="402791960854146" type="System">
+                                    <param id="0" name="Layout">Home Layout</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="390732948808500" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="216197308389158">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="509066186171919" type="Mouse">
+                                    <param id="0" name="Object">btnHome</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="798688751273921" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="474669952281192" title="sentuhan">
+                    <sub-events>
+                        <event-block sid="987325816300994">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="378582160027125" type="Mouse">
+                                    <param id="0" name="Object">btnBilangan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="152509133666005" type="btnBilangan">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="668745744492449" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="872168533749878">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="337895777810610" type="Mouse">
+                                    <param id="0" name="Object">btnBilangan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="559608164830048" type="btnBilangan">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="981437954678696" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="847535246788225">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="690297699447739" type="Mouse">
+                                    <param id="0" name="Object">btnPecahan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="162708421930433" type="btnPecahan">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="766698535801630" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="207454693709408">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="855431319331692" type="Mouse">
+                                    <param id="0" name="Object">btnPecahan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="420641459892737" type="btnPecahan">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="622721903772156" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="897724157684941">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="942071878142177" type="Mouse">
+                                    <param id="0" name="Object">btnKFB</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="633947568541509" type="btnKFB">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="726662015511558" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="466844823685931">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="569651704382451" type="Mouse">
+                                    <param id="0" name="Object">btnKFB</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="930194396728490" type="btnKFB">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="174607532445188" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="653303228466255">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="959050425235255" type="Mouse">
+                                    <param id="0" name="Object">btnPanjangBerat</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="532230845665532" type="btnPanjangBerat">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="703348457464072" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="523456482833551">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="447691569361960" type="Mouse">
+                                    <param id="0" name="Object">btnPanjangBerat</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="181177627149374" type="btnPanjangBerat">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="574978833468447" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="186367419733313">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="560211374303068" type="Mouse">
+                                    <param id="0" name="Object">btnBangunDatar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="725102053705409" type="btnBangunDatar">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="873060186862700" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="305367627857785">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="358498313475921" type="Mouse">
+                                    <param id="0" name="Object">btnBangunDatar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="667610488809312" type="btnBangunDatar">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="518377524727125" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="787562356903428">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="757601495741713" type="Mouse">
+                                    <param id="0" name="Object">btnData</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="486172528903384" type="btnData">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="833724661852205" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="419173829249236">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="415648460549614" type="Mouse">
+                                    <param id="0" name="Object">btnData</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="839596670591746" type="btnData">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="584790329638669" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

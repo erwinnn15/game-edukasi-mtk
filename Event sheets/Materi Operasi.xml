@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Materi Operasi</name>
+    <events>
+        <event-block sid="397816818116768">
+            <conditions>
+                <condition id="3" name="On touched object" sid="785300312541841" type="Touch">
+                    <param id="0" name="Object">btnKembali2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="660619379259666" type="System">
+                    <param id="0" name="Layout">Materi Bilangan Layout</param>
+                </action>
+                <action id="33" name="Stop all" sid="974556531891610" type="Audio" />
+            </actions>
+        </event-block>
+        <event-block sid="177504246194555">
+            <conditions>
+                <condition id="3" name="On touched object" sid="309783972521907" type="Touch">
+                    <param id="0" name="Object">penjumlahan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="762102478359612" type="Audio">
+                    <param id="0" name="Audio file">ttsmaker-file-2024-5-17-23-4-53</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;efek&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="452814588568069" type="Audio">
+                    <param id="0" name="Tag">&quot;penjelasan1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="603031690067889" type="Audio">
+                    <param id="0" name="Tag">&quot;jumlah&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="950111021358726">
+            <conditions>
+                <condition id="3" name="On touched object" sid="336511154067006" type="Touch">
+                    <param id="0" name="Object">jumlah2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="997942676453724" type="Audio">
+                    <param id="0" name="Audio file">ttsmaker-file-2024-5-18-0-8-14</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;jumlah&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="770413494044680" type="Audio">
+                    <param id="0" name="Tag">&quot;penjelasan1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="287520083309094" type="Audio">
+                    <param id="0" name="Tag">&quot;efek&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="101946718603491">
+            <conditions>
+                <condition id="3" name="On touched object" sid="997767053810205" type="Touch">
+                    <param id="0" name="Object">penjelasan1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="431005013563301" type="Audio">
+                    <param id="0" name="Audio file">ttsmaker-file-2024-5-18-0-22-55</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;penjelasan1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="728140536330558" type="Audio">
+                    <param id="0" name="Tag">&quot;jumlah&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="699275111473858" type="Audio">
+                    <param id="0" name="Tag">&quot;efek&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

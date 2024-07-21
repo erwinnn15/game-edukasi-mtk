@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EKeliling Luas</name>
+    <events>
+        <event-block sid="416240863454155">
+            <conditions>
+                <condition id="3" name="On touched object" sid="196280557304799" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="330923238257172" type="System">
+                    <param id="0" name="Layout">Bangun Datar Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="853539159280128" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

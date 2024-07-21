@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EMateri Faktor Bilangan</name>
+    <events>
+        <event-block sid="569823557734908">
+            <conditions>
+                <condition id="3" name="On touched object" sid="541207827692563" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="610101804918512" type="System">
+                    <param id="0" name="Layout">List Materi Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="205097519231253" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="989776289462032" title="MateriFaktor">
+            <sub-events>
+                <event-block sid="576489251322512">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="417557415931700" type="Touch">
+                            <param id="0" name="Object">materiKPK1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="847630365329341" type="System">
+                            <param id="0" name="Layout">Kelipatan Faktor</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="882064948918747">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="387770801963800" type="Touch">
+                            <param id="0" name="Object">materiKPK2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="407617454460556" type="System">
+                            <param id="0" name="Layout">Bilangan Prima</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

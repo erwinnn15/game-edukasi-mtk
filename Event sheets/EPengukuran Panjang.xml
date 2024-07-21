@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EPengukuran Panjang</name>
+    <events>
+        <event-block sid="579790036489030">
+            <conditions>
+                <condition id="3" name="On touched object" sid="692126973186097" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="842156260851602" type="System">
+                    <param id="0" name="Layout">Panjang Berat Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="258289322029923" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

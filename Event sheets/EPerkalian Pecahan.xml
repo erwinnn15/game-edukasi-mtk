@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EPerkalian Pecahan</name>
+    <events>
+        <event-block sid="206597454113214">
+            <conditions>
+                <condition id="3" name="On touched object" sid="417841158154878" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="753926654514518" type="System">
+                    <param id="0" name="Layout">Pecahan Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="254977350989947" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

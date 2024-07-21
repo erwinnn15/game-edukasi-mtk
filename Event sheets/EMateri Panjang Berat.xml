@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EMateri Panjang Berat</name>
+    <events>
+        <event-block sid="151501059245540">
+            <conditions>
+                <condition id="3" name="On touched object" sid="499222444575803" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="955052460792801" type="System">
+                    <param id="0" name="Layout">List Materi Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="173235756659735" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="400260500441099" title="Materi Panjang Berat">
+            <sub-events>
+                <event-block sid="154894514043588">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="648918635781305" type="Touch">
+                            <param id="0" name="Object">materiPanjang1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="168357426492186" type="System">
+                            <param id="0" name="Layout">Pengukuran Panjang</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="621858915079072">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="167913606067350" type="Touch">
+                            <param id="0" name="Object">materiPanjang2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="516700792288392" type="System">
+                            <param id="0" name="Layout">Pengukuran Berat</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Home Layout</name>
+    <events>
+        <event-group description="" sid="900719509372149" title="Animasi">
+            <sub-events>
+                <event-block sid="587624717726962">
+                    <conditions>
+                        <condition behavior="LiteTween" id="4" name="On tween end" sid="365237087851662" type="judulGame" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="920082819667763" type="btnMateri">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="218958725696911" type="btnKuis">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="451039820933670" type="btnMusik">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="916553339806304" type="btnClose">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="678514198361526" title="Mouse Control">
+            <sub-events>
+                <event-group description="" sid="865007038432762" title="Sentuhan Tombol">
+                    <sub-events>
+                        <event-block sid="332933721345985">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="886903366124634" type="Touch">
+                                    <param id="0" name="Object">btnClose</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="1" name="Close" sid="980734523498688" type="Browser" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="616347546412371">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="909388633934090" type="Touch">
+                                    <param id="0" name="Object">btnMateri</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="282355143670052" type="System">
+                                    <param id="0" name="Layout">List Materi Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="887028155386825">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="594778486927043" type="Touch">
+                                    <param id="0" name="Object">btnKuis</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="815545250667150" type="System">
+                                    <param id="0" name="Layout">List Kuis Layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="226123136210585" title="Hover">
+                    <sub-events>
+                        <event-block sid="188798408836592">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="650793505127202" type="Mouse">
+                                    <param id="0" name="Object">btnMateri</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="815605749676841" type="btnMateri">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="363077365702564" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="191033540082128">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="405746628004036" type="Mouse">
+                                    <param id="0" name="Object">btnKuis</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="531645231021128" type="btnKuis">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="864110101335324" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="865676229932442">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="969917357029703" type="Mouse">
+                                    <param id="0" name="Object">btnClose</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="820411820611744" type="btnClose">
+                                    <param id="0" name="Animation">&quot;Normal&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="368570772604327" type="Mouse">
+                                    <param id="0" name="Cursor style">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="794299823388163">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="687501026713147" type="Mouse">
+                                    <param id="0" name="Object">btnMateri</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="146211863053437" type="btnMateri">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="807336933557756" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="908511878398028">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="160155820938686" type="Mouse">
+                                    <param id="0" name="Object">btnKuis</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="692052180884754" type="btnKuis">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="231310601181614" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="723930738062064">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="746463293685702" type="Mouse">
+                                    <param id="0" name="Object">btnClose</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="887742525717710" type="btnClose">
+                                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Set cursor style" sid="313227144868301" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="549669500443352">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="342607853856457" type="Mouse">
+                                    <param id="0" name="Object">btnMusik</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="656701490998377" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="536308966441731">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="386740089293184" type="Mouse">
+                                    <param id="0" name="Object">btnMusikPlay</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set cursor style" sid="479533273212279" type="Mouse">
+                                    <param id="0" name="Cursor style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="178067599985407">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="174781076611421" type="Touch">
+                                    <param id="0" name="Object">btnMusik</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="891919062313162" type="btnMusik">
+                                    <param id="0" name="Y">-100</param>
+                                </action>
+                                <action behavior="Timer" id="0" name="Start timer" sid="900955352305148" type="btnMusik">
+                                    <param id="0" name="Duration">0.2</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;stopMusik&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="455146448178314" type="Audio">
+                                    <param id="0" name="Tag">&quot;musikgame&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="382855654214361">
+                            <conditions>
+                                <condition behavior="Timer" id="0" name="On timer" sid="142498692996286" type="btnMusik">
+                                    <param id="0" name="Tag">&quot;stopMusik&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="125777763504138" type="btnMusikPlay">
+                                    <param id="0" name="Y">58</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="991839719549853">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="708280228489161" type="Touch">
+                                    <param id="0" name="Object">btnMusikPlay</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="807224006640698" type="btnMusikPlay">
+                                    <param id="0" name="Y">-100</param>
+                                </action>
+                                <action behavior="Timer" id="0" name="Start timer" sid="997537778048985" type="btnMusikPlay">
+                                    <param id="0" name="Duration">0.2</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;startMusik&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="101167618187443" type="Audio">
+                                    <param id="0" name="Audio file">Kids Children Funny Cute Background Music</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;musikgame&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="855511345578437">
+                            <conditions>
+                                <condition behavior="Timer" id="0" name="On timer" sid="743671219346251" type="btnMusikPlay">
+                                    <param id="0" name="Tag">&quot;startMusik&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="602562315004635" type="btnMusik">
+                                    <param id="0" name="Y">58</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

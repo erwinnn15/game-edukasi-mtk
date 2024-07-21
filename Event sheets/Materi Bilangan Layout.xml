@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Materi Bilangan Layout</name>
+    <events>
+        <event-block sid="709764519062328">
+            <conditions>
+                <condition id="3" name="On touched object" sid="753182314543764" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="501944450989550" type="System">
+                    <param id="0" name="Layout">List Materi Layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="498162242181061" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="190195577694447">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="154689718545833" type="Mouse">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="738152687988809" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="552263760106870" title="Timer">
+            <sub-events>
+                <event-block sid="745990251842004">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="988114628916773" type="MateriOperasiHitung">
+                            <param id="0" name="Tag">&quot;OperasiHitungPenjumlahan&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="558732465763747" type="MateriOperasiHitung">
+                            <param id="0" name="Text">mid(MateriOperasiHitung.OperasiHitungPenjumlahan,len(MateriOperasiHitung.Text),4)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="941509357072596">
+                            <conditions>
+                                <condition id="0" name="Compare text" sid="892694677024720" type="MateriOperasiHitung">
+                                    <param id="0" name="Text to compare">MateriOperasiHitung.OperasiHitungPenjumlahan</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="1" name="Stop timer" sid="837855987457505" type="MateriOperasiHitung">
+                                    <param id="0" name="Tag">&quot;MateriOperasiHitung&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="322081317092702" title="Sentuh">
+            <sub-events>
+                <event-block disabled="1" sid="641815339956477">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="492373232583951" type="Mouse">
+                            <param id="0" name="Object">materiPecahanKe1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="360896832703836" type="materiPecahanKe1">
+                            <param id="0" name="Animation">&quot;Normal&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="457826331719906" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="237021261864055">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="205919992620171" type="Mouse">
+                            <param id="0" name="Object">materiPecahanKe1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="751408429908549" type="materiPecahanKe1">
+                            <param id="0" name="Animation">&quot;Hover&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="288288682189512" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="544459194136175">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="128053679787614" type="Mouse">
+                            <param id="0" name="Object">materiPecahan2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="268058039943043" type="materiPecahan2">
+                            <param id="0" name="Animation">&quot;Normal&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="132491175265460" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="512083995582086">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="947327898578121" type="Mouse">
+                            <param id="0" name="Object">materiPecahan2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="253167710170493" type="materiPecahan2">
+                            <param id="0" name="Animation">&quot;Hover&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="576806411977254" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113507653192279">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="325367670945316" type="Touch">
+                            <param id="0" name="Object">materiPecahanKe1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="237110986639395" type="System">
+                            <param id="0" name="Layout">Materi Operasi</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

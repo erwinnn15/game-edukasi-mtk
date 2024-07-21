@@ -1,0 +1,1402 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Game Edukasi Matematika SD</name>
+    <description>Aplikasiku</description>
+    <version>1.0</version>
+    <author>EngMars Corp</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>engmarscorp.anakit41.my.id</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>27900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="background" sid="360621307031980">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391225216671552" speed="5">
+                    <frame duration="1" hotspotX="0.500092" hotspotY="0.500124" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_kids-in-nature-template-illustration_694378\9h7h_cjid_180724.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKuis" sid="440211823462052">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="966613958404612">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="327672956642791" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\btn kuis.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="845808266155118" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500222" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnMateri" sid="379270742377203">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="733956410208464">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="469679754508174" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\btnMateri.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="808402173357923" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500221" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnClose" sid="287617235533101">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="992456763517141">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="629581562728321" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50035" original-source="C:\Users\Erwin\Downloads\btnClose.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="209469166551076" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50035" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnMusik" sid="757324569373741">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="741552137519206">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="967825509929340">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286341395930091" speed="5">
+                    <frame duration="1" hotspotX="0.500329" hotspotY="0.50035" original-source="C:\Users\Erwin\Downloads\btnMusik.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulGame" sid="375297336548570">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="840539668649981">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="185216673950318" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\judulGame.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="314558052998812">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Touch" sid="826648239067754">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="btnMusikPlay" sid="839384171580745">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="968272310042072">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="786621519206425" speed="5">
+                    <frame duration="1" hotspotX="0.500329" hotspotY="0.50035" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnMusikOff.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="835715792634075">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Browser" sid="987346004009839">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="backgroundMateri" sid="187967737610956">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917455603476630" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500469" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_empty-kindergarten-room-with-rainbow-in-the-sky-wallpaper_2940996\05sa_ldnn_210617_generated.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulMateriPecahan" sid="192506780435042">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="315121023283657">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768286257769146" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materiPecahan1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papaTulis" sid="287393547998185">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632069237186203" speed="5">
+                    <frame duration="1" hotspotX="0.500894" hotspotY="0.501119" original-source="C:\Users\Erwin\Downloads\vecteezy_the-boy-at-the-white-board-without-an-inscription_12569235-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundListMateri" sid="828802822831587">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819195965693552" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_border-template-with-kids-and-numbers-illustration_413479\vecteezy_border-template-with-kids-on-white-background_6771441.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnBilangan" sid="398454492880701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="829467476759658" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnBilangan.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="331913448566365" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500223" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulListMateri" sid="904487241937744">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="278601287503476">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="752809724110552" speed="5">
+                    <frame duration="1" hotspotX="0.500185" hotspotY="0.501355" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Daftar Materi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnPecahan" sid="781980353625787">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="446294239848887" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnPecahan.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="512619497486253" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500223" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKFB" sid="191197549522784">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="352337342526588" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnFaktorBilangan.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="170577435573897" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500226" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKembali" sid="384587180449514">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374135300917016" speed="5">
+                    <frame duration="1" hotspotX="0.500426" hotspotY="0.500508" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnKembali.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnHome" sid="503202916332092">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="389153462248562">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540486971410790" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnHome.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnPanjangBerat" sid="236627959152100">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="405989817874395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnPanjangBerat.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="601650322939539" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahanKe1" sid="473597193063881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="957004291817283" speed="5">
+                    <frame duration="1" hotspotX="0.500092" hotspotY="0.500538" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materiPecahan1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="269557152824786" speed="5">
+                    <frame duration="1" hotspotX="0.500087" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKembaliKeMateri" sid="866814544869366">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503532042873900" speed="5">
+                    <frame duration="1" hotspotX="0.500426" hotspotY="0.500508" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnKembali.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilangan" sid="649452891551230">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972646325486673" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materiBilangan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulMateriBilangan" sid="334712075643424">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="673971531821393">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955036096294394" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materiBilangan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahan2" sid="685769607777741">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="288392163753772" speed="5">
+                    <frame duration="1" hotspotX="0.500092" hotspotY="0.500538" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materiPecahan2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="587633212631919" speed="5">
+                    <frame duration="1" hotspotX="0.500087" hotspotY="0.500385" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MateriOperasiHitung" sid="992912413674802">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="OperasiHitungPenjumlahan" sid="625091744567114" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="566716884214418">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="nextMateri" sid="932407641886047">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="444100751089855" speed="5">
+                    <frame duration="1" hotspotX="0.500081" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\nextMateri.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="847949797923348" speed="5">
+                    <frame duration="1" hotspotX="0.500077" hotspotY="0.500365" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjumlahanText" sid="118943429202919">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="penjumlahan" sid="903505637509963" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="penjumlahan" sid="357149390699068">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="127290845819685" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501241" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\penjumlahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background2" sid="805969569622442">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660874549915221" speed="5">
+                    <frame duration="1" hotspotX="0.500094" hotspotY="0.500121" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_border-template-with-kids-and-numbers-illustration_413479\r565_wqco_170420.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKembali2" sid="884554767900302">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340673120062199" speed="5">
+                    <frame duration="1" hotspotX="0.500426" hotspotY="0.500508" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnKembali.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jumlah2" sid="685744436955135">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="233039906904637">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522608588976176" speed="5">
+                    <frame duration="1" hotspotX="0.500362" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\jumlah1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasan1" sid="159459096957792">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="931715459584169" speed="5">
+                    <frame duration="1" hotspotX="0.500125" hotspotY="0.500262" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\penjelasanSoal1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundKuis" sid="802943005502004">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698572204743616" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621_627\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundListKuis" sid="251205884929051">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551884817220007" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500469" original-source="C:\Users\Erwin\Pictures\Assets Game\vecteezy_hopscotch-on-playground-background_6351729_969 (1)\vecteezy_hopscotch-on-playground-background_6351729.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleKuis" sid="305572454631540">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="756347237516254">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645610172307659" speed="5">
+                    <frame duration="1" hotspotX="0.500209" hotspotY="0.501285" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\daftarKuis.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papanKuis" sid="271772253173350">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="414273054219796">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="281867898232253" speed="5">
+                    <frame duration="1" hotspotX="0.500106" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\papanKuis.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalke1" sid="683636218306525">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="415907310909500">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478435990332636" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50032" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\soalke2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tombolKembali" sid="185749696171030">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="725040068849553">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906812792043673" speed="5">
+                    <frame duration="1" hotspotX="0.500426" hotspotY="0.500508" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnKembali.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="layoutJawaban" sid="276294095711493">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777190018376498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\layoutJawaban.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_jawaban" sid="925296856277202">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="papan_skor" sid="588231833002279">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="958737587376609">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="934673290403285" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\Remove-bg.ai_1715972087232.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_skor" sid="984276818886295">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="681505308719995">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="btnBangunDatar" sid="430612909138181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="992135370850207" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnBangunDatar.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="191277972374775" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500224" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnData" sid="741347392113207">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Normal" pingpong="0" repeatcount="1" repeatto="0" sid="418731504995275" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnData.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="425426015412969" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500225" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlePecahan" sid="921859986093859">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="578556204282010">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532097726656567" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\titlePecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahan1" sid="229799951349874">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="804042113928308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\1 - Mengenal Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan1" sid="938982996257114">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="335493119413694">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365713928463043" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\1 - Mengenal Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan2" sid="193702906820182">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="682892264113996">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581667934910725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\2 - Mengurutkan Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan3" sid="221351567517876">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="266254492657524">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933390196764795" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\3 - Pecahan Campuran.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan4" sid="682208086406012">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="152110100306027">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529711585832173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\4 - Penjumlahan Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan5" sid="617511707341011">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="493511523049601">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="204567460624639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\5- Pengurangan Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan6" sid="943460941006916">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="424232325823787">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927435624685802" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\6 - Perkalian Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan7" sid="326066333069258">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="749333375630519">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935696417342921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\7 - Pembagian Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kelipatanFaktorTitle" sid="914001964212481">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="644747968354393">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="499711288078664" speed="5">
+                    <frame duration="1" hotspotX="0.500181" hotspotY="0.500956" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Title.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlePanjangBerat" sid="715871349203608">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="936101962122167">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410726982597017" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Panjang Berat\Title.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleBangunDatar" sid="759832176030692">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="719338233946232">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610314128878877" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Bangun Datar Title.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JudulData" sid="172412136803557">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="498788998819189">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655645089723800" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.500967" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\Title Data.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiData1" sid="987607136884488">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="857015911657933">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191927998782115" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\1 - Mengenal Data.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiData2" sid="328037775076234">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="199877140433703">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909167791500239" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\2 - Membaca Data.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiData3" sid="758093648182277">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="284045970458645">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694053832656490" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\3 - Mengumpulkan dan Mengolah Data.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBangunDatar1" sid="627781108466042">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="872249676382904">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="675332266956788" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Materi 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBangunDatar2" sid="308479946618562">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="414084796250028">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737835466455319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Materi 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBangunDatar3" sid="496873169530892">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="270130459209009">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700122796070867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Materi 3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPanjang1" sid="873132763699786">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="689892242539008">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409397467764710" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Panjang Berat\Materi 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPanjang2" sid="429554620751128">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="463849678534241">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="925295339166395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Panjang Berat\Materi 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiKPK1" sid="906372615779082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="360402999000057">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113838278858488" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Materi 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiKPK2" sid="103271370535287">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="403728212673518">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236806118203410" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Materi 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiKPK3" sid="355099200573683">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="853052921525437">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141250326095779" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Materi 3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mengenalPecahan1" sid="266123282335306">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="984824505807211" speed="5">
+                    <frame duration="1" hotspotX="0.500502" hotspotY="0.501319" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilPecahan8" sid="266251579586879">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500048457483109" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\1 - Mengenal Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlePecahan2" sid="314817224344283">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="661118853070883">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913601900140641" speed="5">
+                    <frame duration="1" hotspotX="0.500256" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\titlePecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mengurutkanPecahan" sid="372496632670303">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777133040006235" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DataKe1" sid="331757474629016">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187420385930867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501066" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\Mat1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DataKe2" sid="164669264200245">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523841256382990" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Data\Mat2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MateriBangunKe1" sid="781688650548700">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="397321061589258" speed="5">
+                    <frame duration="1" hotspotX="0.500495" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Mat1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MateriBangunKe2" sid="178574540566879">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445747123929762" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Mat2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IMGmateriPecahanCampuran" sid="777112167843915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855244639175237" speed="5">
+                    <frame duration="1" hotspotX="0.500643" hotspotY="0.500858" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Pecahan Campuran.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mat4PenjumlahanPecahan" sid="859483297958665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144399689942527" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat5Pecahan" sid="774911932386106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375953260200679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat6Pecahan" sid="712965973691807">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="737927897742045" speed="5">
+                    <frame duration="1" hotspotX="0.500876" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat7Pecahan" sid="743344262785268">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612918206271337" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.501362" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Mat7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat2PengukuranBerat" sid="331383392503276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624515079616074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501002" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Panjang Berat\Mat1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat2PengukuranBeratReal" sid="212171377196459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="797213342826476" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Panjang Berat\Mat2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat2BangunDatar" sid="496993523512980">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823670175442229" speed="5">
+                    <frame duration="1" hotspotX="0.50063" hotspotY="0.501066" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Mat3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mat3HubunganGaris" sid="929891367585117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="702439127115128" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500846" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Bangun Datar\Mat4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KuisNo1Pecahan" sid="434570208479741">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="858079050958279">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253591684987024" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Kuis\Kuis No 1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No1OpsiAPecahan" sid="345870630637512">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="717860195974362" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Kuis\jawaban no1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No1OpsiBPecahan" sid="376623225241806">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771261246297259" speed="5">
+                    <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Kuis\jawaban no2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No1OpsiCPecahan" sid="220686119746171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171154798020602" speed="5">
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504274" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Kuis\jawaban no1c.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Opsi" sid="662313896595617">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="jawabanPecahan" sid="622701761289836">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446319820183620" speed="5">
+                    <frame duration="1" hotspotX="0.500106" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\papanKuis.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No2SoalPecahan" sid="720867637280197">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="773134521838459">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="223442873569062" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502513" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan\Kuis\Kuis No 2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No1KPK" sid="966010189892145">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="426253279932820">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690530708365340" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Kuis\No1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="No2KPK" sid="626888011303595">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="538643917907323">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766044951923914" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Kelipatan Faktor\Kuis\No2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgPenjelasan" sid="978999702829725">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246025319589581" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500188" original-source="C:\Users\Erwin\Downloads\—Pngtree—students going to school on_970586.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papanPenjelasan" sid="882302784350021">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676228754901709" speed="5">
+                    <frame duration="1" hotspotX="0.500081" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\—Pngtree—blackboard mbe blackboard mbe style_3855931.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textPenjelasan" sid="722368594323219">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnNextSoal" sid="699520162710081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="796474273982406" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\—Pngtree—game button next button_5324254.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jawabanBenar" sid="966295786729855">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="764087231873398">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710153731974266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Benar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nextSoal" sid="685825819636110">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358505600872499" speed="5">
+                    <frame duration="1" hotspotX="0.500077" hotspotY="0.500365" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Next Soal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLihatSkor" sid="105094743024033">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="362827919929257" speed="5">
+                    <frame duration="1" hotspotX="0.500077" hotspotY="0.500365" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\lihatSkor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgSalah" sid="285804123329409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="809065268028790" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\—Pngtree—325 national primary and secondary_1617390.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tandaSalah" sid="157337648476255">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="245447220595559">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414650297938860" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\—Pngtree—cross mark button icon_7885567.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnKeSoal" sid="668379830926758">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="157634625365038">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375949010927200" speed="5">
+                    <frame duration="1" hotspotX="0.500077" hotspotY="0.500365" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\kembaliKeSoal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JawabanSalahText2" sid="871620370493370">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="JawabanSalahText3" sid="244812372990079">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="JawabanSalahText4" sid="320304571131848">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="jawabanAndaSalah" sid="597540010283137">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="jawabKuSalah" sid="343055955993214">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="217745491629958">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout-folder name="Materi Pecahan">
+            <layout-folder name="Kuis">
+                <layout>Kuis Pecahan No 1.xml</layout>
+                <layout>Kuis Pecahan No 2.xml</layout>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Mengenal Pecahan.xml</layout>
+                <layout>Mengurutkan Pecahan.xml</layout>
+                <layout>Pecahan Campuran.xml</layout>
+                <layout>Penjumlahan Pecahan.xml</layout>
+                <layout>Pengurangan Pecahan.xml</layout>
+                <layout>Perkalian Pecahan.xml</layout>
+                <layout>Pembagian Pecahan.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout>Penjelasan Soal Pecahan 1.xml</layout>
+                <layout>Penjelasan Soal Pecahan 2.xml</layout>
+            </layout-folder>
+            <layout>Pecahan Layout.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Kelipatan Faktor Bilangan">
+            <layout-folder name="Kuis">
+                <layout>Kuis KPK No 1.xml</layout>
+                <layout>Kuis KPK No 2.xml</layout>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Kelipatan Faktor.xml</layout>
+                <layout>Bilangan Prima.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout>Penjelasan KPK No 1.xml</layout>
+                <layout>Penjelasan KPK No 2.xml</layout>
+            </layout-folder>
+            <layout>Kelipatan Faktor Bilangan Layout.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Panjang Berat">
+            <layout-folder name="Kuis">
+                <layout>Kuis Panjang Berat No 1.xml</layout>
+                <layout>Kuis Panjang Berat No 2.xml</layout>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Pengukuran Panjang.xml</layout>
+                <layout>Pengukuran Berat.xml</layout>
+            </layout-folder>
+            <layout>Panjang Berat Layout.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Bangun Datar">
+            <layout-folder name="Kuis">
+                <layout>Kuis Bangun Datar No 1.xml</layout>
+                <layout>Kuis Bangun Datar No 2.xml</layout>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Segi Banyak.xml</layout>
+                <layout>Menghitung Luas Keliling.xml</layout>
+                <layout>Hubungan Antar Garis.xml</layout>
+            </layout-folder>
+            <layout>Bangun Datar Layout.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Data">
+            <layout-folder name="Kuis">
+                <layout>Kuis Data No 1.xml</layout>
+                <layout>Kuis Data No 2.xml</layout>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Mengenal Data.xml</layout>
+                <layout>Membaca Data.xml</layout>
+            </layout-folder>
+            <layout>Data Layout.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Bilangan">
+            <layout-folder name="Materi">
+                <layout>Materi Bilangan Layout.xml</layout>
+                <layout>Materi Operasi.xml</layout>
+            </layout-folder>
+            <layout-folder name="Soal">
+                <layout>Kuis Bilangan Operasi.xml</layout>
+                <layout>Kuis Bilangan Operasi 2.xml</layout>
+                <layout>Copas.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout>Penjelasan Soal Operasi 1.xml</layout>
+                <layout>Penjelasan Soal Operasi 2.xml</layout>
+                <layout>Jawaban Salah Operasi.xml</layout>
+            </layout-folder>
+            <layout-folder name="Skor">
+                <layout>Skor Materi Operasi.xml</layout>
+            </layout-folder>
+        </layout-folder>
+        <layout>Home Layout.xml</layout>
+        <layout>List Materi Layout.xml</layout>
+        <layout>List Kuis Layout.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-folder name="Pecahan">
+            <event-folder name="Materi">
+                <event-sheet>EMengenal Pecahan.xml</event-sheet>
+                <event-sheet>EMengurutkan Pecahan.xml</event-sheet>
+                <event-sheet>EPecahan Campuran.xml</event-sheet>
+                <event-sheet>EPenjumlahan Pecahan.xml</event-sheet>
+                <event-sheet>EPengurangan Pecahan.xml</event-sheet>
+                <event-sheet>EPerkalian Pecahan.xml</event-sheet>
+                <event-sheet>EPembagian Pecahan.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>Kuis Pecahan No 1.xml</event-sheet>
+                <event-sheet>Kuis Pecahan No 2.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Penjelasan">
+                <event-sheet>EPenjelasan Pecahan No 1.xml</event-sheet>
+                <event-sheet>EPenjelasan Pecahan No 2.xml</event-sheet>
+            </event-folder>
+            <event-sheet>EMateri Pecahan.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Kelipatan Faktor Bilangan">
+            <event-folder name="Materi">
+                <event-sheet>EBilangan Prima.xml</event-sheet>
+                <event-sheet>EKelipatan Faktor.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>Kuis KPK No 1.xml</event-sheet>
+                <event-sheet>Kuis KPK No 2.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Penjelasan">
+                <event-sheet>EPenjelasan KPK No 1.xml</event-sheet>
+                <event-sheet>EPenjelasan KPK No 2.xml</event-sheet>
+            </event-folder>
+            <event-sheet>EMateri Faktor Bilangan.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Panjang Berat">
+            <event-folder name="Materi">
+                <event-sheet>EPengukuran Panjang.xml</event-sheet>
+                <event-sheet>EPengukuran Berat.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>EPanjang Berat No 1.xml</event-sheet>
+                <event-sheet>EPanjang Berat No 2.xml</event-sheet>
+            </event-folder>
+            <event-sheet>EMateri Panjang Berat.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Bangun Datar">
+            <event-folder name="Materi">
+                <event-sheet>ESegi Banyak.xml</event-sheet>
+                <event-sheet>EKeliling Luas.xml</event-sheet>
+                <event-sheet>EAntar Garis.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>EBangun Datar No 1.xml</event-sheet>
+                <event-sheet>EBangun Datar No 2.xml</event-sheet>
+            </event-folder>
+            <event-sheet>EMateri Bangun Datar.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Data">
+            <event-folder name="Materi">
+                <event-sheet>EMengenal Data.xml</event-sheet>
+                <event-sheet>EMembaca Data.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>EData No 1.xml</event-sheet>
+                <event-sheet>EData No 2.xml</event-sheet>
+            </event-folder>
+            <event-sheet>EMateri Data.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Bilangan">
+            <event-folder name="Materi">
+                <event-sheet>Materi Bilangan Layout.xml</event-sheet>
+                <event-sheet>Materi Operasi.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Kuis">
+                <event-sheet>Kuis Bilangan Operasi.xml</event-sheet>
+                <event-sheet>Kuis Bilangan Operasi 2.xml</event-sheet>
+                <event-sheet>Copas.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Penjelasan">
+                <event-sheet>EPenjelasanOperasi1.xml</event-sheet>
+                <event-sheet>EPenjelasanOperasi2.xml</event-sheet>
+                <event-sheet>ESalahJawabanOperasi.xml</event-sheet>
+            </event-folder>
+            <event-folder name="Skor">
+                <event-sheet>ESkorOperasi.xml</event-sheet>
+            </event-folder>
+        </event-folder>
+        <event-sheet>Home Layout.xml</event-sheet>
+        <event-sheet>List Materi Layout.xml</event-sheet>
+        <event-sheet>List Kuis Layout.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="6" />
+        <global-instance type="Touch" uid="8">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="9">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="10" />
+    </global-instances>
+    <sounds-folder>
+        <file name="Kids Children Funny Cute Background Music.m4a" />
+        <file name="Kids Children Funny Cute Background Music.ogg" />
+        <file name="ttsmaker-file-2024-5-17-23-2-20.m4a" />
+        <file name="ttsmaker-file-2024-5-17-23-2-20.ogg" />
+        <file name="ttsmaker-file-2024-5-17-23-4-53.m4a" />
+        <file name="ttsmaker-file-2024-5-17-23-4-53.ogg" />
+        <file name="ttsmaker-file-2024-5-18-0-8-14.m4a" />
+        <file name="ttsmaker-file-2024-5-18-0-8-14.ogg" />
+        <file name="ttsmaker-file-2024-5-18-0-22-55.m4a" />
+        <file name="ttsmaker-file-2024-5-18-0-22-55.ogg" />
+        <file name="ttsmaker-file-2024-5-18-2-12-33.m4a" />
+        <file name="ttsmaker-file-2024-5-18-2-12-33.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
