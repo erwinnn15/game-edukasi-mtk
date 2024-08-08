@@ -10,37 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Kuis Bilangan Operasi</layout>
-        <layout order="1">Skor Materi Operasi</layout>
-        <layout order="2">Penjelasan Soal Operasi 2</layout>
-        <layout order="3">Penjelasan Soal Pecahan 1</layout>
-        <layout order="4">Penjelasan Soal Pecahan 2</layout>
-        <layout order="5">Pembagian Pecahan</layout>
-        <layout order="6">Penjelasan Soal Operasi 1</layout>
-        <layout order="7">Jawaban Salah Operasi</layout>
-        <layout order="8">Kuis Pecahan No 1</layout>
-        <layout order="9">Kuis Bilangan Operasi 2</layout>
-        <layout order="10">Kuis Pecahan No 2</layout>
-        <layout order="20">Penjelasan KPK No 1</layout>
-        <layout order="21">Penjelasan KPK No 2</layout>
-        <layout order="22">Bilangan Prima</layout>
-        <layout order="23">Kelipatan Faktor</layout>
-        <layout order="24">Home Layout</layout>
-        <layout active="1" order="29">Kuis KPK No 1</layout>
-        <layout order="30">Kuis KPK No 2</layout>
-        <event-sheet order="11">EPenjelasan Pecahan No 1</event-sheet>
-        <event-sheet order="12">EPenjelasan Pecahan No 2</event-sheet>
-        <event-sheet order="13">ESalahJawabanOperasi</event-sheet>
-        <event-sheet order="14">EPenjelasanOperasi1</event-sheet>
-        <event-sheet order="15">EPenjelasanOperasi2</event-sheet>
-        <event-sheet order="16">Kuis Pecahan No 1</event-sheet>
-        <event-sheet order="17">Kuis Pecahan No 2</event-sheet>
-        <event-sheet order="18">Kuis Bilangan Operasi</event-sheet>
-        <event-sheet order="19">Kuis Bilangan Operasi 2</event-sheet>
-        <event-sheet order="25">EPenjelasan KPK No 1</event-sheet>
-        <event-sheet order="26">EPenjelasan KPK No 2</event-sheet>
-        <event-sheet order="27">Kuis KPK No 1</event-sheet>
-        <event-sheet order="28">Kuis KPK No 2</event-sheet>
+        <layout order="0">Penjelasan KPK No 5</layout>
+        <layout order="1">Penjelasan KPK No 6</layout>
+        <layout order="2">Penjelasan KPK No 7</layout>
+        <layout order="3">Penjelasan KPK No 8</layout>
+        <layout order="4">Penjelasan KPK No 9</layout>
+        <layout active="1" order="5">Penjelasan KPK No 10</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -52,10 +27,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Materi Pecahan/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/" />
+        <folder expanded="1" path="layout-folder/Materi Pecahan/Kuis/" />
         <folder expanded="0" path="layout-folder/Materi Pecahan/Materi/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/" />
+        <folder expanded="1" path="layout-folder/Materi Pecahan/Penjelasan/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Materi/" />
@@ -63,19 +38,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="layout-folder/Materi Panjang Berat/" />
         <folder expanded="1" path="layout-folder/Materi Panjang Berat/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Panjang Berat/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Penjelasan/" />
         <folder expanded="0" path="layout-folder/Materi Bangun Datar/" />
         <folder expanded="1" path="layout-folder/Materi Bangun Datar/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Bangun Datar/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bangun Datar/Penjelasan/" />
         <folder expanded="0" path="layout-folder/Materi Data/" />
         <folder expanded="1" path="layout-folder/Materi Data/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Data/Materi/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan/" />
+        <folder expanded="1" path="layout-folder/Materi Data/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Materi/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Soal/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Penjelasan/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Skor/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Pecahan/" />
+        <folder expanded="0" path="event-folder/Pecahan/" />
         <folder expanded="1" path="event-folder/Pecahan/Materi/" />
         <folder expanded="1" path="event-folder/Pecahan/Kuis/" />
         <folder expanded="1" path="event-folder/Pecahan/Penjelasan/" />
@@ -86,12 +64,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Panjang Berat/" />
         <folder expanded="1" path="event-folder/Panjang Berat/Materi/" />
         <folder expanded="1" path="event-folder/Panjang Berat/Kuis/" />
+        <folder expanded="1" path="event-folder/Panjang Berat/Penjelasan/" />
         <folder expanded="0" path="event-folder/Bangun Datar/" />
         <folder expanded="1" path="event-folder/Bangun Datar/Materi/" />
         <folder expanded="1" path="event-folder/Bangun Datar/Kuis/" />
+        <folder expanded="1" path="event-folder/Bangun Datar/Penjelasan/" />
         <folder expanded="0" path="event-folder/Data/" />
         <folder expanded="1" path="event-folder/Data/Materi/" />
         <folder expanded="1" path="event-folder/Data/Kuis/" />
+        <folder expanded="1" path="event-folder/Data/Penjelasan/" />
         <folder expanded="0" path="event-folder/Bilangan/" />
         <folder expanded="1" path="event-folder/Bilangan/Materi/" />
         <folder expanded="1" path="event-folder/Bilangan/Kuis/" />
@@ -198,5 +179,65 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bgSalah/" />
         <folder expanded="1" path="animation-folder/tandaSalah/" />
         <folder expanded="1" path="animation-folder/btnKeSoal/" />
+        <folder expanded="1" path="animation-folder/soalNo3Pecahan/" />
+        <folder expanded="1" path="animation-folder/jawabanPecahaNo3/" />
+        <folder expanded="1" path="animation-folder/jawabanPecahanNo3b/" />
+        <folder expanded="1" path="animation-folder/jawabanPecahanNo3c/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo4/" />
+        <folder expanded="1" path="animation-folder/jawabanSoal4a/" />
+        <folder expanded="1" path="animation-folder/jawabanSoal4b/" />
+        <folder expanded="1" path="animation-folder/jawabanSoal4c/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo5/" />
+        <folder expanded="1" path="animation-folder/jawabanNo5a/" />
+        <folder expanded="1" path="animation-folder/jawabanSoalNo5c/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo6/" />
+        <folder expanded="1" path="animation-folder/soalPecahaNo7/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo8/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo9/" />
+        <folder expanded="1" path="animation-folder/soalPecahanNo10/" />
+        <folder expanded="1" path="animation-folder/soalKPKNo3/" />
+        <folder expanded="1" path="animation-folder/soalKPKNo31/" />
+        <folder expanded="1" path="animation-folder/soalKPKNo4/" />
+        <folder expanded="1" path="animation-folder/soalKPKNo5/" />
+        <folder expanded="1" path="animation-folder/soalKPKNo6/" />
+        <folder expanded="1" path="animation-folder/soalBilanganNo3/" />
+        <folder expanded="1" path="animation-folder/soalBilanganNo4/" />
+        <folder expanded="1" path="animation-folder/soalBilanganNo5/" />
+        <folder expanded="1" path="animation-folder/soalBilangaNo6/" />
+        <folder expanded="1" path="animation-folder/soalBilangaNo7/" />
+        <folder expanded="1" path="animation-folder/soalBilanganNo8/" />
+        <folder expanded="1" path="animation-folder/soalBilanganNo9/" />
+        <folder expanded="1" path="animation-folder/soalBilangaNo10/" />
+        <folder expanded="1" path="animation-folder/kuisKpkNo7/" />
+        <folder expanded="1" path="animation-folder/soalkpkNo8/" />
+        <folder expanded="1" path="animation-folder/soalkpkn09/" />
+        <folder expanded="1" path="animation-folder/soalKPKno10/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo1/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo2/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo3/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo4/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo5/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo6/" />
+        <folder expanded="1" path="animation-folder/saolBangunDatarNo7/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo8/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo9/" />
+        <folder expanded="1" path="animation-folder/soalBangunDatarNo10/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo1/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo2/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo3/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo4/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBerat/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBaratNo6/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo7/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo8/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo9/" />
+        <folder expanded="1" path="animation-folder/soalPanjangBeratNo10/" />
+        <folder expanded="1" path="animation-folder/soalDataNo1/" />
+        <folder expanded="1" path="animation-folder/soalDataNo3/" />
+        <folder expanded="1" path="animation-folder/soalGambarDataNo4/" />
+        <folder expanded="1" path="animation-folder/soalGambarDataNo5/" />
+        <folder expanded="1" path="animation-folder/soalGambarDataNo6/" />
+        <folder expanded="1" path="animation-folder/soalGambarDataNo7/" />
+        <folder expanded="1" path="animation-folder/soalGambarDataNo8/" />
     </folders-expanded>
 </c2uistate>

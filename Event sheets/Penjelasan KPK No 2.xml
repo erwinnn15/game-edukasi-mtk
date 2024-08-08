@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Penjelasan KPK No 2</name>
+    <events>
+        <event-block sid="599149779325914">
+            <conditions>
+                <condition id="3" name="On touched object" sid="117245552699372" type="Touch">
+                    <param id="0" name="Object">btnLihatSkor</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="265183318035122" type="btnLihatSkor">
+                    <param id="0" name="Unique ID">388</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="935275086223475" type="text_skor">
+                    <param id="0" name="Text">&quot;SKOR = &quot; &amp; skor</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="450218821805770" type="text_skor">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="185544624262347" type="papan_skor">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="648377114138617" type="tombolKembali">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="-24" name="Move to top" sid="905105284251044" type="bgPenjelasan" />
+                <action id="-24" name="Move to top" sid="603392975497535" type="papan_skor" />
+                <action id="-24" name="Move to top" sid="282935125417528" type="text_skor" />
+                <action id="-24" name="Move to top" sid="826795267815557" type="tombolKembali" />
+            </actions>
+        </event-block>
+        <event-block sid="728709657642130">
+            <conditions>
+                <condition id="3" name="On touched object" sid="906205356061272" type="Touch">
+                    <param id="0" name="Object">tombolKembali</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="516965863929894" type="System">
+                    <param id="0" name="Layout">List Kuis Layout</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="370141125173550" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Kuis Pecahan No 8</name>
+    <events>
+        <event-block sid="553234273344301">
+            <conditions>
+                <condition id="3" name="On touched object" sid="852265846819635" type="Touch">
+                    <param id="0" name="Object">layoutJawaban</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="473332071632455" type="layoutJawaban">
+                    <param id="0" name="Unique ID">475</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="787583805864561" type="System">
+                    <param id="0" name="Variable">skor</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="270274060004705" type="System">
+                    <param id="0" name="Layout">Penjelasan Soal Pecahan 8</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="152718651202174">
+            <conditions>
+                <condition id="3" name="On touched object" sid="908712098772215" type="Touch">
+                    <param id="0" name="Object">layoutJawaban</param>
+                </condition>
+                <condition id="-14" inverted="1" name="Pick by unique ID" sid="819540322194852" type="layoutJawaban">
+                    <param id="0" name="Unique ID">475</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="228966249053028" type="tandaSalah">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="247048041265815" type="btnKeSoal">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="957841240380882" type="btnHome">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="877993167994655" type="jawabKuSalah">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="-24" name="Move to top" sid="659960603616719" type="backgroundKuis" />
+                <action id="-24" name="Move to top" sid="129534551201358" type="tandaSalah" />
+                <action id="-24" name="Move to top" sid="906877973318140" type="btnKeSoal" />
+                <action id="-24" name="Move to top" sid="510956881601546" type="jawabKuSalah" />
+                <action id="-24" name="Move to top" sid="426656300127589" type="btnHome" />
+            </actions>
+        </event-block>
+        <event-block sid="416660194628862">
+            <conditions>
+                <condition id="3" name="On touched object" sid="288972023514332" type="Touch">
+                    <param id="0" name="Object">btnKeSoal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="401067432745269" type="System">
+                    <param id="0" name="Layout">Kuis Pecahan No 8</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="112476172666843">
+            <conditions>
+                <condition id="3" name="On touched object" sid="551009420197346" type="Touch">
+                    <param id="0" name="Object">btnHome</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="418585291101959" type="System">
+                    <param id="0" name="Layout">Home Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -2,7 +2,7 @@
 <c2layout>
     <name>Kuis Panjang Berat No 1</name>
     <sid>283966000685101</sid>
-    <event-sheet>EPanjang Berat No 1</event-sheet>
+    <event-sheet>Panjang Berat No 1</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -154,7 +154,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="260">
                     <properties>
-                        <text>1</text>
+                        <text>Luas</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -181,7 +181,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="261">
                     <properties>
-                        <text>4</text>
+                        <text>Panjang</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -208,7 +208,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="262">
                     <properties>
-                        <text>7</text>
+                        <text>Berat</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -233,7 +233,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="No1KPK" uid="263">
+                <instance type="tandaSalah" uid="963">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -243,12 +243,12 @@
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Ping Pong</active-on-start>
-                                <tweened-property>Size</tweened-property>
-                                <function>Linear</function>
-                                <target>502, 37</target>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>654, 259</target>
                                 <target-mode>Absolute</target-mode>
-                                <duration>2</duration>
+                                <duration>1.5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>
@@ -256,14 +256,146 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>391</x>
-                        <y>358</y>
+                        <x>625</x>
+                        <y>980</y>
                         <z>0</z>
-                        <width>422.374176025</width>
-                        <height>31.131164551</height>
+                        <width>479.468444824</width>
+                        <height>479.468444824</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.513513505</hotspotY>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnHome" uid="964">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>452, 660</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>1.5</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>423</x>
+                        <y>1375</y>
+                        <z>0</z>
+                        <width>75.330001831</width>
+                        <height>63.14899826</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnKeSoal" uid="965">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>747, 668</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>1.5</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>718</x>
+                        <y>1380</y>
+                        <z>0</z>
+                        <width>422.596832275</width>
+                        <height>89.645721436</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500077367</hotspotX>
+                        <hotspotY>0.500364721</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="jawabKuSalah" uid="966">
+                    <properties>
+                        <text>Jawaban Salah</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-64,400,0</font>
+                        <color>255,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInQuad</function>
+                                <target>371, 519</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>1.5</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>342</x>
+                        <y>1224</y>
+                        <z>0</z>
+                        <width>568</width>
+                        <height>85</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="soalPanjangBeratNo1" uid="263">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>399</x>
+                        <y>351</y>
+                        <z>0</z>
+                        <width>523</width>
+                        <height>112</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50190115</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
