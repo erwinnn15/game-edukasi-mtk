@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Operasi Hitung Perkalian</name>
+    <events>
+        <event-block sid="720931125021269">
+            <conditions>
+                <condition id="3" name="On touched object" sid="557581012406759" type="Touch">
+                    <param id="0" name="Object">nextMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="948935554111361" type="System">
+                    <param id="0" name="Layout">Materi Operasi - Pembagian</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="617074213436800">
+            <conditions>
+                <condition id="3" name="On touched object" sid="495044293884334" type="Touch">
+                    <param id="0" name="Object">btnKembaliKeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="908426841134654" type="System">
+                    <param id="0" name="Layout">Materi Bilangan Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -135,7 +135,19 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="237110986639395" type="System">
-                            <param id="0" name="Layout">Materi Operasi</param>
+                            <param id="0" name="Layout">Materi Operasi - Tambah</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="184322576516678">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="282739964154745" type="Touch">
+                            <param id="0" name="Object">materiPecahan2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="221525889075727" type="System">
+                            <param id="0" name="Layout">Materi Operasi - Perkalian</param>
                         </action>
                     </actions>
                 </event-block>

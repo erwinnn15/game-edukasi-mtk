@@ -299,7 +299,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="491">
                     <properties>
-                        <text>5/9</text>
+                        <text>2</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -326,7 +326,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="492">
                     <properties>
-                        <text>1/59</text>
+                        <text>6/3</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -353,7 +353,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="493">
                     <properties>
-                        <text>9/5</text>
+                        <text>2/9</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -378,7 +378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soalPecahanNo9" uid="494">
+                <instance type="SoalPecahanBagiNo9" uid="494">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -388,14 +388,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>400</x>
-                        <y>367</y>
+                        <x>399</x>
+                        <y>411</y>
                         <z>0</z>
-                        <width>478.976013184</width>
-                        <height>103.170097351</height>
+                        <width>379.942138672</width>
+                        <height>157.850357056</height>
                         <depth>0</depth>
-                        <hotspotX>0.500409484</hotspotX>
-                        <hotspotY>0.50190115</hotspotY>
+                        <hotspotX>0.502415478</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NarasiSoalPecahanNo9" uid="1399">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>403</x>
+                        <y>276</y>
+                        <z>0</z>
+                        <width>515.914123535</width>
+                        <height>79.931907654</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50010699</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -297,7 +297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soalPecahanNo4" uid="424">
+                <instance type="DeskPecahanTambah" uid="406">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -307,19 +307,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>397</x>
-                        <y>363</y>
+                        <x>398</x>
+                        <y>282</y>
                         <z>0</z>
-                        <width>475</width>
-                        <height>166</height>
+                        <width>446.445983887</width>
+                        <height>79.794647217</height>
                         <depth>0</depth>
-                        <hotspotX>0.500296414</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500703216</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jawabanSoal4a" uid="425">
+                <instance type="soalPecahanTambah2" uid="424">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -329,11 +329,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>991</x>
-                        <y>182</y>
+                        <x>384</x>
+                        <y>422</y>
                         <z>0</z>
-                        <width>70.825874329</width>
-                        <height>137.661560059</height>
+                        <width>312.343597412</width>
+                        <height>147.398101807</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -341,7 +341,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jawabanSoal4b" uid="428">
+                <instance type="jawabanBEnarTambahPEcahan" uid="1397">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -351,19 +351,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>986</x>
-                        <y>374</y>
+                        <x>988</x>
+                        <y>380</y>
                         <z>0</z>
-                        <width>52.096897125</width>
-                        <height>133.136520386</height>
+                        <width>69.716896057</width>
+                        <height>134.085144043</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.500687778</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jawabanSoal4c" uid="429">
+                <instance type="jawabanSalahPecahanTambahNo4" uid="425">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -373,13 +373,35 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>982.827087402</x>
-                        <y>571.891357422</y>
+                        <x>990</x>
+                        <y>183</y>
                         <z>0</z>
-                        <width>55.704971313</width>
-                        <height>142.357147217</height>
+                        <width>69.717002869</width>
+                        <height>134.085006714</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5006935</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="jawabanSoalPecahanTambahNo4_1" uid="428">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>984</x>
+                        <y>573</y>
+                        <z>0</z>
+                        <width>69.717002869</width>
+                        <height>134.085006714</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50181818</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

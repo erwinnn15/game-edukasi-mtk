@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Materi Operasi</name>
-    <sid>144098828985865</sid>
-    <event-sheet>Materi Operasi</event-sheet>
+    <name>Materi Operasi - Perkalian</name>
+    <sid>637429351478690</sid>
+    <event-sheet>Operasi Hitung Perkalian</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="962447081888243">
+        <layer name="Layer 0" sid="940889175978536">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="btnKembali2" uid="25">
+                <instance type="backgroundMateri" uid="1376">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,30 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1211.827880859</x>
-                        <y>60.023490906</y>
-                        <z>0</z>
-                        <width>90.104560852</width>
-                        <height>75.534461975</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500425518</hotspotX>
-                        <hotspotY>0.500507593</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="backgroundMateri" uid="13">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>638</x>
-                        <y>359.002807617</y>
+                        <x>638.82800293</x>
+                        <y>359</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>726</height>
@@ -73,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="papaTulis" uid="26">
+                <instance type="btnKembaliKeMateri" uid="1378">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -83,19 +61,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>832</x>
-                        <y>579</y>
+                        <x>1198</x>
+                        <y>49</y>
                         <z>0</z>
-                        <width>1310.197631836</width>
-                        <height>1047.689331055</height>
+                        <width>75.330001831</width>
+                        <height>63.14899826</height>
                         <depth>0</depth>
-                        <hotspotX>0.500894427</hotspotX>
-                        <hotspotY>0.501118541</hotspotY>
+                        <hotspotX>0.500425518</hotspotX>
+                        <hotspotY>0.500507593</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="judulMateriBilangan" uid="27">
+                <instance type="judulMateriBilangan" uid="1379">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -118,8 +96,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>651</x>
-                        <y>83</y>
+                        <x>655</x>
+                        <y>84</y>
                         <z>0</z>
                         <width>324.742004395</width>
                         <height>86.708999634</height>
@@ -130,7 +108,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="materiPecahanKe1" uid="28">
+                <instance type="materiPecahanKe1" uid="1380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -140,8 +118,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>645</x>
-                        <y>179</y>
+                        <x>648</x>
+                        <y>171</y>
                         <z>0</z>
                         <width>394.90725708</width>
                         <height>67.60067749</height>
@@ -152,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="penjumlahan" uid="29">
+                <instance type="nextMateri" uid="1381">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -162,65 +140,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>416</x>
-                        <y>244</y>
-                        <z>0</z>
-                        <width>242.251647949</width>
-                        <height>38.802627563</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501240671</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jumlah2" uid="30">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="LiteTween">
-                            <properties>
-                                <active-on-start>Flip Flop</active-on-start>
-                                <tweened-property>Size</tweened-property>
-                                <function>Linear</function>
-                                <target>409.414, 100.651</target>
-                                <target-mode>Absolute</target-mode>
-                                <duration>2.5</duration>
-                                <enforce-mode>Enforce</enforce-mode>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>601.207275391</x>
-                        <y>322.201599121</y>
-                        <z>0</z>
-                        <width>348.919281006</width>
-                        <height>85.779144287</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500361562</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="nextMateri" uid="31">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>874</x>
-                        <y>632</y>
+                        <x>1139</x>
+                        <y>686</y>
                         <z>0</z>
                         <width>238.166656494</width>
                         <height>38.103572845</height>
@@ -231,7 +152,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="penjelasan1" uid="32">
+                <instance type="perkalianTitle" uid="1377">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -241,19 +162,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>604</x>
-                        <y>503</y>
+                        <x>121</x>
+                        <y>172</y>
                         <z>0</z>
-                        <width>416.547729492</width>
-                        <height>198.738174438</height>
+                        <width>172.526245117</width>
+                        <height>32.389274597</height>
                         <depth>0</depth>
-                        <hotspotX>0.50012511</hotspotX>
-                        <hotspotY>0.500262201</hotspotY>
+                        <hotspotX>0.500268936</hotspotX>
+                        <hotspotY>0.501432657</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnKembaliKeMateri" uid="60">
+                <instance type="penjelasan" uid="1382">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -263,14 +184,80 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1199.074951172</x>
-                        <y>49.387001038</y>
+                        <x>381</x>
+                        <y>431</y>
                         <z>0</z>
-                        <width>75.330001831</width>
-                        <height>63.14899826</height>
+                        <width>691.111755371</width>
+                        <height>412.078094482</height>
                         <depth>0</depth>
-                        <hotspotX>0.500425518</hotspotX>
-                        <hotspotY>0.500507593</hotspotY>
+                        <hotspotX>0.500520289</hotspotX>
+                        <hotspotY>0.500872612</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="contoh" uid="1383">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>833.486755371</x>
+                        <y>244.703903198</y>
+                        <z>0</z>
+                        <width>155.790176392</width>
+                        <height>34.323295593</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500317454</hotspotX>
+                        <hotspotY>0.501440942</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="papanPutih" uid="1385">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1009.269470215</x>
+                        <y>457.103057861</y>
+                        <z>0</z>
+                        <width>438.651855469</width>
+                        <height>363.695251465</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501483679</hotspotX>
+                        <hotspotY>0.501362383</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CoontohX" uid="1384">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>992.041625977</x>
+                        <y>452.69519043</y>
+                        <z>0</z>
+                        <width>297.489898682</width>
+                        <height>309.250793457</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500253439</hotspotX>
+                        <hotspotY>0.500243783</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

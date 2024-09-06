@@ -299,7 +299,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="478">
                     <properties>
-                        <text>Seperdelapan</text>
+                        <text>5/12</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -326,7 +326,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="479">
                     <properties>
-                        <text>Delapan persatu</text>
+                        <text>1/6</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -353,7 +353,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="480">
                     <properties>
-                        <text>Satu delapan</text>
+                        <text>3/4</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -378,7 +378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soalPecahanNo8" uid="481">
+                <instance type="soalPecahanKaliNo8" uid="481">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -388,14 +388,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>408</x>
-                        <y>358</y>
+                        <x>396</x>
+                        <y>355</y>
                         <z>0</z>
-                        <width>484.586730957</width>
-                        <height>45.967002869</height>
+                        <width>500</width>
+                        <height>182</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.504672885</hotspotY>
+                        <hotspotX>0.501103759</hotspotX>
+                        <hotspotY>0.50420171</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

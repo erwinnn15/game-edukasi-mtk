@@ -297,7 +297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jawabanSoal4c" uid="442">
+                <instance type="soalPecahanKurangNo5" uid="429">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -307,11 +307,33 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>979</x>
-                        <y>364</y>
+                        <x>391</x>
+                        <y>402</y>
                         <z>0</z>
-                        <width>55.704971313</width>
-                        <height>142.357147217</height>
+                        <width>369.264190674</width>
+                        <height>148.487182617</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502645493</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="soalPenguranganPecahan" uid="439">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>401</x>
+                        <y>274</y>
+                        <z>0</z>
+                        <width>480.181274414</width>
+                        <height>66.599853516</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -319,7 +341,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soalPecahanNo5" uid="439">
+                <instance type="jawabanBenarPecahanNo5" uid="1398">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -329,19 +351,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>395</x>
-                        <y>347</y>
+                        <x>983.500488281</x>
+                        <y>369.678924561</y>
                         <z>0</z>
-                        <width>475</width>
-                        <height>137</height>
+                        <width>53.69859314</width>
+                        <height>142.350097656</height>
                         <depth>0</depth>
-                        <hotspotX>0.500306547</hotspotX>
-                        <hotspotY>0.501872659</hotspotY>
+                        <hotspotX>0.50181818</hotspotX>
+                        <hotspotY>0.500685871</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="jawabanNo5a" uid="440">
+                <instance type="jawabanPecahanPenguranNo5_1" uid="442">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -351,36 +373,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>980</x>
+                        <x>982</x>
+                        <y>565</y>
+                        <z>0</z>
+                        <width>53.699001312</width>
+                        <height>142.350006104</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50181818</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="jawabanPecahanNo5_2" uid="441">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>985</x>
                         <y>178</y>
                         <z>0</z>
-                        <width>49.864578247</width>
-                        <height>127.224578857</height>
+                        <width>53.699001312</width>
+                        <height>142.350006104</height>
                         <depth>0</depth>
-                        <hotspotX>0.504672885</hotspotX>
-                        <hotspotY>0.501831532</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jawabanSoalNo5c" uid="441">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>979</x>
-                        <y>567</y>
-                        <z>0</z>
-                        <width>46.578029633</width>
-                        <height>70.161842346</height>
-                        <depth>0</depth>
-                        <hotspotX>0.506329119</hotspotX>
-                        <hotspotY>0.50420171</hotspotY>
+                        <hotspotX>0.50181818</hotspotX>
+                        <hotspotY>0.500687778</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

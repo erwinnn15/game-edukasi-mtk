@@ -299,7 +299,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="466">
                     <properties>
-                        <text>6%</text>
+                        <text>5/18</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -326,7 +326,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="467">
                     <properties>
-                        <text>6/10</text>
+                        <text>1/18</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -353,7 +353,7 @@
                 </instance>
                 <instance type="text_jawaban" uid="468">
                     <properties>
-                        <text>60%</text>
+                        <text>0/3</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Britannic Bold,-26.6667,400,0</font>
                         <color>0,0,0</color>
@@ -378,7 +378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="soalPecahaNo7" uid="462">
+                <instance type="soalPenguranganPecahan" uid="440">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -388,14 +388,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>399</x>
-                        <y>353</y>
+                        <x>402</x>
+                        <y>273</y>
                         <z>0</z>
-                        <width>486.117462158</width>
-                        <height>53.176448822</height>
+                        <width>480.181274414</width>
+                        <height>66.599853516</height>
                         <depth>0</depth>
-                        <hotspotX>0.500484049</hotspotX>
-                        <hotspotY>0.504424751</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="soalPecahanNo7" uid="462">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>391</x>
+                        <y>413</y>
+                        <z>0</z>
+                        <width>338.540283203</width>
+                        <height>149.813796997</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.506493509</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
