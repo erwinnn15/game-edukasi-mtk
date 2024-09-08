@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="319">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Operasi ini adalah penjumlahan dasar, di mana 5 ditambah 5 menghasilkan 10. Jadi, hasilnya adalah 10.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-32,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

@@ -10,20 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Kuis Pecahan No 5</layout>
-        <layout order="2">Kuis Pecahan No 6</layout>
-        <layout order="3">Pecahan Layout</layout>
-        <layout order="4">Kuis Pecahan No 2</layout>
-        <layout order="5">Kuis Pecahan No 3</layout>
-        <layout order="6">Kuis Pecahan No 10</layout>
-        <layout active="1" order="7">Kuis Pecahan No 9</layout>
-        <layout order="8">Kuis Pecahan No 7</layout>
-        <layout order="10">Kuis Pecahan No 8</layout>
-        <layout order="12">Kuis Pecahan No 4</layout>
-        <event-sheet order="1">Kuis Pecahan No 5</event-sheet>
-        <event-sheet order="9">Kuis Pecahan No 7</event-sheet>
-        <event-sheet order="11">Kuis Pecahan No 8</event-sheet>
-        <event-sheet order="13">Kuis Pecahan No 9</event-sheet>
+        <layout order="0">Penjelasan Soal Operasi 1</layout>
+        <layout order="1">Kuis Bilangan Operasi</layout>
+        <layout order="2">Kuis Bilangan Operasi 2</layout>
+        <layout order="3">Kuis Bilangan Operasi 3</layout>
+        <layout active="1" order="4">Penjelasan Soal Operasi 3</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -35,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Materi Pecahan/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/" />
         <folder expanded="1" path="layout-folder/Materi Pecahan/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Pecahan/Materi/" />
         <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/" />
@@ -55,13 +46,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/Materi Data/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Data/Materi/" />
         <folder expanded="1" path="layout-folder/Materi Data/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Bilangan/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/Materi/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Soal/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Penjelasan/" />
         <folder expanded="1" path="layout-folder/Materi Bilangan/Skor/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Pecahan/" />
+        <folder expanded="0" path="event-folder/Pecahan/" />
         <folder expanded="1" path="event-folder/Pecahan/Materi/" />
         <folder expanded="1" path="event-folder/Pecahan/Kuis/" />
         <folder expanded="1" path="event-folder/Pecahan/Penjelasan/" />
@@ -281,5 +272,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/soalNarasiBagiPecahanNo8/" />
         <folder expanded="1" path="animation-folder/SoalPecahanBagiNo9/" />
         <folder expanded="1" path="animation-folder/NarasiSoalPecahanNo9/" />
+        <folder expanded="1" path="animation-folder/titleMengenalPecahan/" />
+        <folder expanded="1" path="animation-folder/titlePecahanSenilai/" />
+        <folder expanded="1" path="animation-folder/materiPecahanSenilai/" />
+        <folder expanded="1" path="animation-folder/materiPecahanSenilai2/" />
+        <folder expanded="1" path="animation-folder/titleSederhanakanPecahan/" />
+        <folder expanded="1" path="animation-folder/materiSederhanaPecahan/" />
+        <folder expanded="1" path="animation-folder/titleMengurutkanPecahanDenganGarisBilangan/" />
+        <folder expanded="1" path="animation-folder/materiPecahanDengangarisBilangan/" />
+        <folder expanded="1" path="animation-folder/materiPecahangarisBilangan2/" />
+        <folder expanded="1" path="animation-folder/titleMembandingkanPecahan/" />
+        <folder expanded="1" path="animation-folder/materiMembandingkanPecahan/" />
     </folders-expanded>
 </c2uistate>

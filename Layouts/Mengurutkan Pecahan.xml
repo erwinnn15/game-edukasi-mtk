@@ -73,28 +73,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="papaTulis" uid="114">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>835</x>
-                        <y>580</y>
-                        <z>0</z>
-                        <width>1310.197631836</width>
-                        <height>1047.689331055</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500894427</hotspotX>
-                        <hotspotY>0.501118541</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="btnKembaliKeMateri" uid="118">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -113,41 +91,6 @@
                         <depth>0</depth>
                         <hotspotX>0.500425518</hotspotX>
                         <hotspotY>0.500507593</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="materiBilPecahan2" uid="110">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="LiteTween">
-                            <properties>
-                                <active-on-start>Flip Flop</active-on-start>
-                                <tweened-property>Size</tweened-property>
-                                <function>Linear</function>
-                                <target>509.07, 87.143</target>
-                                <target-mode>Absolute</target-mode>
-                                <duration>2.5</duration>
-                                <enforce-mode>Enforce</enforce-mode>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>648</x>
-                        <y>180</y>
-                        <z>0</z>
-                        <width>509.070007324</width>
-                        <height>87.142997742</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -176,7 +119,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>654</x>
-                        <y>84</y>
+                        <y>64</y>
                         <z>0</z>
                         <width>324.742004395</width>
                         <height>86.708999634</height>
@@ -187,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="mengurutkanPecahan" uid="116">
+                <instance type="titleMengurutkanPecahanDenganGarisBilangan" uid="1414">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -197,13 +140,79 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>639.5</x>
-                        <y>433</y>
+                        <x>299</x>
+                        <y>131</y>
                         <z>0</z>
-                        <width>677</width>
-                        <height>416</height>
+                        <width>528.012451172</width>
+                        <height>23.010820389</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500065029</hotspotX>
+                        <hotspotY>0.50149256</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="materiPecahanDengangarisBilangan" uid="110">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>340.81439209</x>
+                        <y>434.766845703</y>
+                        <z>0</z>
+                        <width>617</width>
+                        <height>538</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50021708</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="materiPecahangarisBilangan2" uid="114">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>963.6171875</x>
+                        <y>377.934539795</y>
+                        <z>0</z>
+                        <width>603</width>
+                        <height>427</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="nextMateri" uid="116">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1152</x>
+                        <y>695</y>
+                        <z>0</z>
+                        <width>238.166656494</width>
+                        <height>38.103572845</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500081122</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

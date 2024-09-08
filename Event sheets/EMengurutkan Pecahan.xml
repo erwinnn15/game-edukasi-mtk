@@ -3,18 +3,27 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EMengurutkan Pecahan</name>
     <events>
-        <event-block sid="177024320535641">
+        <event-block sid="682838627697943">
             <conditions>
-                <condition id="3" name="On touched object" sid="591005855147269" type="Touch">
+                <condition id="3" name="On touched object" sid="422964058749637" type="Touch">
+                    <param id="0" name="Object">nextMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="370387608944192" type="System">
+                    <param id="0" name="Layout">Membandingkan Pecahan</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="484884092777774">
+            <conditions>
+                <condition id="3" name="On touched object" sid="365892946092896" type="Touch">
                     <param id="0" name="Object">btnKembaliKeMateri</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="720319864773013" type="System">
+                <action id="-2" name="Go to layout" sid="999853188861283" type="System">
                     <param id="0" name="Layout">Pecahan Layout</param>
-                </action>
-                <action id="0" name="Set cursor style" sid="897113325780280" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
                 </action>
             </actions>
         </event-block>

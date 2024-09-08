@@ -19,5 +19,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="612824392223806">
+            <conditions>
+                <condition id="3" name="On touched object" sid="606996185943150" type="Touch">
+                    <param id="0" name="Object">nextMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="421198780384522" type="System">
+                    <param id="0" name="Layout">Pecahan Senilai</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

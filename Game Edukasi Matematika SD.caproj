@@ -1922,6 +1922,94 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="titleMengenalPecahan" sid="522611185218410">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480844476785897" speed="5">
+                    <frame duration="1" hotspotX="0.500136" hotspotY="0.501493" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Mengenal Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlePecahanSenilai" sid="836285180406207">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404904865347901" speed="5">
+                    <frame duration="1" hotspotX="0.500163" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Pecahan Senilai.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahanSenilai" sid="128567678326764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="406114964331055" speed="5">
+                    <frame duration="1" hotspotX="0.500201" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan Senilai.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahanSenilai2" sid="329165687066365">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213717374128721" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Materi Pecahan Senilai2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleSederhanakanPecahan" sid="408792390398944">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531386710505057" speed="5">
+                    <frame duration="1" hotspotX="0.50009" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Menyerderhanakan Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiSederhanaPecahan" sid="618465309368908">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102030749603274" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500463" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Sederhana Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleMengurutkanPecahanDenganGarisBilangan" sid="397765641728588">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526391754458066" speed="5">
+                    <frame duration="1" hotspotX="0.500065" hotspotY="0.501493" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Menyusun Pecahan pada Garis Bilangan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahanDengangarisBilangan" sid="663279464068987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839572648287028" speed="5">
+                    <frame duration="1" hotspotX="0.500217" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materi Mengurutkan Pecahan dengan Garis Bilangan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiPecahangarisBilangan2" sid="205393635660278">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845809436805003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\materi Mengurutkan Pecahan dengan Garis Bilangan2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleMembandingkanPecahan" sid="671723342209688">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758995502341330" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501493" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Membandingkan Pecahan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiMembandingkanPecahan" sid="752102426014151">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732474559250470" speed="5">
+                    <frame duration="1" hotspotX="0.500608" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-09-09 013807.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1946,6 +2034,9 @@
                 <layout>Pengurangan Pecahan.xml</layout>
                 <layout>Perkalian Pecahan.xml</layout>
                 <layout>Pembagian Pecahan.xml</layout>
+                <layout>Pecahan Senilai.xml</layout>
+                <layout>Sederahanakan Pecahan.xml</layout>
+                <layout>Membandingkan Pecahan.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
                 <layout>Penjelasan Soal Pecahan 1.xml</layout>
@@ -2137,6 +2228,10 @@
                 <event-sheet>EPengurangan Pecahan.xml</event-sheet>
                 <event-sheet>EPerkalian Pecahan.xml</event-sheet>
                 <event-sheet>EPembagian Pecahan.xml</event-sheet>
+                <event-sheet>Pecahan Senilai.xml</event-sheet>
+                <event-sheet>Sederhanakan Pecahan.xml</event-sheet>
+                <event-sheet>Pecahan pada Garis Bilangan.xml</event-sheet>
+                <event-sheet>Membandingkan Pecahan.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
                 <event-sheet>Kuis Pecahan No 1.xml</event-sheet>
