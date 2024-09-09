@@ -2010,6 +2010,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="materiKPK" sid="146396890700900">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="553844483547687" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501348" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-09-09 174301.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="materiBilanganPrimta" sid="792360332468895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485029785509273" speed="5">
+                    <frame duration="1" hotspotX="0.500449" hotspotY="0.501377" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-09-09 174456.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

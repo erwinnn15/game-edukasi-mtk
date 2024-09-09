@@ -14,7 +14,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="1">Kuis Bilangan Operasi</layout>
         <layout order="2">Kuis Bilangan Operasi 2</layout>
         <layout order="3">Kuis Bilangan Operasi 3</layout>
-        <layout active="1" order="4">Penjelasan Soal Operasi 3</layout>
+        <layout order="4">Penjelasan Soal Operasi 3</layout>
+        <layout order="5">Kelipatan Faktor</layout>
+        <layout active="1" order="6">Bilangan Prima</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/Materi Pecahan/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Pecahan/Materi/" />
         <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Kelipatan Faktor Bilangan/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Kuis/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Materi/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan/Penjelasan/" />
@@ -283,5 +285,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/materiPecahangarisBilangan2/" />
         <folder expanded="1" path="animation-folder/titleMembandingkanPecahan/" />
         <folder expanded="1" path="animation-folder/materiMembandingkanPecahan/" />
+        <folder expanded="1" path="animation-folder/materiKPK/" />
+        <folder expanded="1" path="animation-folder/materiBilanganPrimta/" />
     </folders-expanded>
 </c2uistate>

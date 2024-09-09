@@ -83,11 +83,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>835</x>
-                        <y>579</y>
+                        <x>865</x>
+                        <y>577</y>
                         <z>0</z>
-                        <width>1310.197631836</width>
-                        <height>1047.689331055</height>
+                        <width>1486</width>
+                        <height>1041</height>
                         <depth>0</depth>
                         <hotspotX>0.500894427</hotspotX>
                         <hotspotY>0.501118541</hotspotY>
@@ -183,6 +183,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="materiBilanganPrimta" uid="1423">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>647.521118164</x>
+                        <y>437.027526855</y>
+                        <z>0</z>
+                        <width>793</width>
+                        <height>411</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50044924</hotspotX>
+                        <hotspotY>0.501377404</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
