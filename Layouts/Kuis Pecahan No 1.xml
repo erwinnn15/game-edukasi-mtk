@@ -158,8 +158,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>912</x>
-                        <y>127</y>
+                        <x>904</x>
+                        <y>117</y>
                         <z>0</z>
                         <width>386</width>
                         <height>212</height>
@@ -502,6 +502,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="titleLv1Pecahan" uid="1607">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>235.081741333</x>
+                        <y>26.453523636</y>
+                        <z>0</z>
+                        <width>469.517608643</width>
+                        <height>52.01083374</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500189006</hotspotX>
+                        <hotspotY>0.501706481</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

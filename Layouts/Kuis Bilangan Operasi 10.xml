@@ -400,6 +400,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="titleLevelKuis1" uid="1440">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>246.416000366</x>
+                        <y>35.157001495</y>
+                        <z>0</z>
+                        <width>461.811706543</width>
+                        <height>51.157207489</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500189006</hotspotX>
+                        <hotspotY>0.501706481</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

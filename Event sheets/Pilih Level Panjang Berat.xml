@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Pilih Level Panjang Berat</name>
+    <events>
+        <event-group description="" sid="610911910492954" title="BtnLevel6">
+            <sub-events>
+                <event-block sid="972300476291089">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="955809094252972" type="Touch">
+                            <param id="0" name="Object">btnPilihLevelMain</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="798931021270295" type="System">
+                            <param id="0" name="Layer">&quot;PopupLayer&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="759094531369527">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="975375981551379" type="Touch">
+                            <param id="0" name="Object">level1Btn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="191740272046016" type="System">
+                            <param id="0" name="Layout">Kuis Panjang Berat No 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="104393230169551">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="336794619654609" type="Touch">
+                            <param id="0" name="Object">level2Btn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="374139208644009" type="System">
+                            <param id="0" name="Layout">Kuis PBerat No1 Lv2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="571035223330872">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="508159383893243" type="Touch">
+                            <param id="0" name="Object">batalLanjutLv1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="245403834414517" type="System">
+                            <param id="0" name="Layer">&quot;PopupLayer&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

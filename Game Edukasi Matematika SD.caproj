@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -2026,21 +2027,854 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgPilihLevel" sid="892542281797216">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734838257376351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Warna Warni Ilustrasi Bermain Game Presentasi.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgPilihLevel2" sid="687921569346315">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733959647830574" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Warna Warni Ilustrasi Bermain Game Presentasi.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLevel1" sid="270403716632182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114734047826628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnLevel1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLevel11" sid="963798581647253">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710594404593143" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnLevel-1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLevel_1" sid="848382437196878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489256781542114" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnLevel1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tombolLevel1" sid="549778589769070">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270997373596734" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\tombolLevel1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLevel1_11" sid="590443760947742">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132354074334778" speed="5">
+                    <frame duration="1" hotspotX="0.500443" hotspotY="0.501424" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\levelBTN.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="level1Btn" sid="603300319397960">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="146285786860849" speed="5">
+                    <frame duration="1" hotspotX="0.500443" hotspotY="0.501424" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\levelBTN.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="level2Btn" sid="436572807447310">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378859229880072" speed="5">
+                    <frame duration="1" hotspotX="0.500443" hotspotY="0.501424" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\level2btn.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="popupLevel1" sid="743036134033769">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="725628831466986" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\popupLanjut.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yaLanjutBtnLv1" sid="639136642062657">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="162813664040524" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnYaLanjut.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batalLanjutLv1" sid="932914691615088">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="619670596005361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnBatal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleLevelKuis1" sid="640536121054360">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587711863760904" speed="5">
+                    <frame duration="1" hotspotX="0.500189" hotspotY="0.501706" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\titleLevelKui1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalBilanganLv1" sid="102721311709544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="649579372919906" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\soalBilanganLv1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgLv2Bilangan" sid="784857586908152">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160623059231539" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Presentasi Pramuka Kreatif Anak-Anak Ilustrasi Oranye Coklat.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalBilanganLv2No1" sid="973448158407130">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585225361748929" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\soalBilanganLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalBilanganLv2No2" sid="465894228235341">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286475640754993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500282" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\soalBilanganNo2Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="layoutJawabanLv2Bilangan" sid="987887446477813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778185081800626" speed="5">
+                    <frame duration="1" hotspotX="0.500717" hotspotY="0.503268" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Cuplikan_layar_2024-09-21_144534-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgPenjelasanLV2" sid="234429008487397">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187790414007801" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Downloads\Presentasi Pramuka Kreatif Anak-Anak Ilustrasi Oranye Coklat.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnNextSoalLv2" sid="551999152885431">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812087825357805" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" original-source="C:\Users\Erwin\Downloads\Presentasi_Pramuka_Kreatif_Anak-Anak_Ilustrasi_Oranye_Coklat__1_-removebg-preview.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnNextSoalLevel2" sid="752796339244311">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572730135464658" speed="5">
+                    <frame duration="1" hotspotX="0.500431" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Next Soal Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLihatSkorLv2" sid="694666418342701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="675900674746817" speed="5">
+                    <frame duration="1" hotspotX="0.500431" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnLihatSkorLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mokupLevel2" sid="753442141558406">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122330625003924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\mokupLevel2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yaLanjutBtnLv3" sid="550566397409623">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316928706789440" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnYaLanjut.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="yaLanjutBtnLv4" sid="219183929894670">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106308022256858" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnYaLanjut.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLanjutLv2" sid="407286364600562">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318612786744797" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnLanjutLv22" sid="614390576954505">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112342537209975" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnYaLanjut.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnBatalLv2" sid="597563107734381">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="755627520411883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnBatal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mokupPilihLevel" sid="831037287285244">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352296135144631" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\pilihLevelMain.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnPilihLevelMain" sid="517439043541815">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288303214061753" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501424" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\btnPilihLevelMain.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalLvl2No2" sid="985807495174690">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="351960049880102" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl2No3" sid="367564805956720">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183690139148394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal9.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl2No4" sid="720868864205106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106088810791018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal8.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bilLvl2N05" sid="626853538113620">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585645700185706" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BilLvl2No6" sid="162259862896266">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="652244059782143" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BilLvl2No7" sid="108161010467098">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400767906618099" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BilLvl2No8" sid="431703542715281">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287148268110458" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BilLvl2No9" sid="676594315037930">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724277728708501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BilLvl2No10" sid="949563657654390">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615583700110710" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Bilangan Lvl2\soal2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleLv1Pecahan" sid="114591495262072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452202980158035" speed="5">
+                    <frame duration="1" hotspotX="0.500189" hotspotY="0.501706" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\TitleLv1 Pecaha.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleLv2Pecahan" sid="508939014381539">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="482577555050760" speed="5">
+                    <frame duration="1" hotspotX="0.500298" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\TitleLv2 Pecaha.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecLv2No1" sid="341039787428711">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835878793161914" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo1Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo9Lv2" sid="616277626614739">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="390115039171661" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo2Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="peNo8Lv2" sid="644860695440238">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="371900530335145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo3Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo7Lv2" sid="274377655639609">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401408830230999" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo4Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo6Llv2" sid="124944440700855">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338172957735794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo5Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo5Lv2" sid="258223074459987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="439371146804731" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo6Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo4Lv2" sid="455961530464316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="473721597980146" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo7Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo3Lv2" sid="354891440404303">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="129588733870925" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo8Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiANo3Lv2Pec" sid="278120756228535">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770006956027679" speed="5">
+                    <frame duration="1" hotspotX="0.501961" hotspotY="0.501818" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\opsiA.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiANo3Lv2Pecc" sid="371178535337607">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312617440615941" speed="5">
+                    <frame duration="1" hotspotX="0.501961" hotspotY="0.501818" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\opsiA.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiBNo3Lv2Pec" sid="262000707280669">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="103004959195178" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.501818" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\opsiB.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiCNo3Lv2Pec" sid="589895307963247">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522178615912055" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.501818" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\opsiC.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo2Lv2" sid="921507303529671">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="971725106945784" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo9Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiE" sid="228406362051575">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710967589704616" speed="5">
+                    <frame duration="1" hotspotX="0.500978" hotspotY="0.501792" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\OpsiE.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiF" sid="623591982981363">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="605542769867264" speed="5">
+                    <frame duration="1" hotspotX="0.501014" hotspotY="0.501792" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\OpsiF.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="opsiG" sid="237466329458819">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="488308828311177" speed="5">
+                    <frame duration="1" hotspotX="0.501014" hotspotY="0.501792" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\OpsiG.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pecNo1Lv2" sid="199273833288043">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="435464452554022" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Jawaban Pecahan\soalNo10Lv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleKPK" sid="312415677779415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282492337267120" speed="5">
+                    <frame duration="1" hotspotX="0.500298" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\titleKPK.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo10Lv2" sid="988575341290807">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452645006760482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo9Lv2" sid="303960619995259">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580667570307232" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo9.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo8Lv2" sid="884759156807084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="413446878972265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo8.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo7Lv2" sid="370289941686997">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451260545038316" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo6Lv2" sid="502091678070761">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231347345372324" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo5Lv2" sid="470975211576838">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815325998186415" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo4Lv2" sid="146748285016760">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466576971437356" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo3Lv2" sid="558926245912608">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="804929297299656" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo2Lv2" sid="715086772132078">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213902774748280" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kpkNo1Lv2" sid="312876208279836">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282385785120900" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\KPK Lv2\KpkNo1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleDataLv2" sid="650221524617847">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665146444408703" speed="5">
+                    <frame duration="1" hotspotX="0.500298" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\titleDataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no1DataLv2" sid="535524187559140">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542858709453371" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo1DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no2DataLv2" sid="604514738806258">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="200758181410652" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo2DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no3DataLv2" sid="959910105990729">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136706858246284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo3DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no5DataLv2" sid="230761361288039">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624863719101107" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo5DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no4DataLv2" sid="402061537631138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="507117067893083" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo4DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no6DataLv2" sid="954688622149033">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="134112109302106" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo6DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no7DataLv2" sid="489667332192421">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292440893796987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo7DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no8DataLv2" sid="876523865587147">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113506503658489" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo8DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no9DataLv2" sid="883615527685678">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="229147511389425" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo9DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no10DataLv2" sid="121913876715613">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906928622655991" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Data Lv2\SoalNo10DataLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titleBangunDatarLv2" sid="730339539913039">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354447478229310" speed="5">
+                    <frame duration="1" hotspotX="0.500298" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\titleBangunDatar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlePBLv2" sid="733991439574764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657907232068609" speed="5">
+                    <frame duration="1" hotspotX="0.500298" hotspotY="0.50193" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\titlePBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no1PbLv2" sid="275521953683186">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270980750395380" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no1PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no2PbLv2" sid="347414362010485">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149027574648422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no2PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no3PbLv2" sid="821266152379520">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972476174089282" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no3PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no4PbLv2" sid="188880794984757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277461005407735" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no4PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no5PbLv2" sid="422445551557872">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="216807317158430" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no5PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no6PbLv2" sid="259283798376230">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="774450719785245" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no6PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no7PbLv2" sid="844602864026397">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667295301712456" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no7PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no8PbLv2" sid="760881064499714">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278449359847440" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no8PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no9PbLv2" sid="781622643855706">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640509727941052" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no9PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no10PbLv2" sid="163997491037696">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454726439725943" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Panjang Berat Lv2\no10PBLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no1BDLv2" sid="269205542538121">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982423935818943" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no1GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no2BDLv2" sid="292444139394592">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768500503436819" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no2GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no3BDLv2" sid="162129730252965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478432182384477" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no3GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no4BDLv2" sid="836280765271541">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="558377765957927" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no4GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no5BDLv2" sid="136353286444233">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301855189322268" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no5GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no6BDLv2" sid="539525901179843">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180521279439101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no6GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no7BDLv2" sid="243530424912074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191058587087401" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no7GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no8BDLv2" sid="546412790445932">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631276766461237" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no8GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no9BDLv2" sid="505474827225479">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720889555538758" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no9GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="no10BDLv2" sid="745941876663812">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="no100BDLv2" sid="967072627254503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385397388907096" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DATAKU\Folder Baru\Game Edukasi\Assets\Garis Lv2\no10GarisLv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout-folder name="Materi Pecahan">
+        <layout-folder name="Materi Pecahan - done">
             <layout-folder name="Kuis">
-                <layout>Kuis Pecahan No 1.xml</layout>
-                <layout>Kuis Pecahan No 2.xml</layout>
-                <layout>Kuis Pecahan No 3.xml</layout>
-                <layout>Kuis Pecahan No 4.xml</layout>
-                <layout>Kuis Pecahan No 5.xml</layout>
-                <layout>Kuis Pecahan No 6.xml</layout>
-                <layout>Kuis Pecahan No 7.xml</layout>
-                <layout>Kuis Pecahan No 8.xml</layout>
-                <layout>Kuis Pecahan No 9.xml</layout>
-                <layout>Kuis Pecahan No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis Pecahan No 1.xml</layout>
+                    <layout>Kuis Pecahan No 2.xml</layout>
+                    <layout>Kuis Pecahan No 3.xml</layout>
+                    <layout>Kuis Pecahan No 4.xml</layout>
+                    <layout>Kuis Pecahan No 5.xml</layout>
+                    <layout>Kuis Pecahan No 6.xml</layout>
+                    <layout>Kuis Pecahan No 7.xml</layout>
+                    <layout>Kuis Pecahan No 8.xml</layout>
+                    <layout>Kuis Pecahan No 9.xml</layout>
+                    <layout>Kuis Pecahan No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis Pecahan No1 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No2 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No3 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No4 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No5 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No6 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No7 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No8 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No9 Lv2.xml</layout>
+                    <layout>Kuis Pecahan No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Materi">
                 <layout>Mengenal Pecahan.xml</layout>
@@ -2055,93 +2889,180 @@
                 <layout>Membandingkan Pecahan.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan Soal Pecahan 1.xml</layout>
-                <layout>Penjelasan Soal Pecahan 2.xml</layout>
-                <layout>Penjelasan Soal Pecahan 3.xml</layout>
-                <layout>Penjelasan Soal Pecahan 4.xml</layout>
-                <layout>Penjelasan Soal Pecahan 5.xml</layout>
-                <layout>Penjelasan Soal Pecahan 6.xml</layout>
-                <layout>Penjelasan Soal Pecahan 7.xml</layout>
-                <layout>Penjelasan Soal Pecahan 8.xml</layout>
-                <layout>Penjelasan Soal Pecahan 9.xml</layout>
-                <layout>Penjelasan Soal Pecahan 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan Soal Pecahan 1.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 2.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 3.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 4.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 5.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 6.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 7.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 8.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 9.xml</layout>
+                    <layout>Penjelasan Soal Pecahan 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan Pecahan No1 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No2 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No3 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No4 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No5 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No6 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No7 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No8 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No9 Lv2.xml</layout>
+                    <layout>Penjelasan Pecahan No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout>Pecahan Layout.xml</layout>
+            <layout>Pilih Level Pecahan.xml</layout>
         </layout-folder>
-        <layout-folder name="Materi Kelipatan Faktor Bilangan">
+        <layout-folder name="Materi Kelipatan Faktor Bilangan - done">
             <layout-folder name="Kuis">
-                <layout>Kuis KPK No 1.xml</layout>
-                <layout>Kuis KPK No 2.xml</layout>
-                <layout>Kuis KPK No 3.xml</layout>
-                <layout>Kuis KPK No 4.xml</layout>
-                <layout>Kuis KPK No 5.xml</layout>
-                <layout>Kuis KPK No 6.xml</layout>
-                <layout>Kuis KPK No 7.xml</layout>
-                <layout>Kuis KPK No 8.xml</layout>
-                <layout>Kuis KPK No 9.xml</layout>
-                <layout>Kuis KPK No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis KPK No 1.xml</layout>
+                    <layout>Kuis KPK No 2.xml</layout>
+                    <layout>Kuis KPK No 3.xml</layout>
+                    <layout>Kuis KPK No 4.xml</layout>
+                    <layout>Kuis KPK No 5.xml</layout>
+                    <layout>Kuis KPK No 6.xml</layout>
+                    <layout>Kuis KPK No 7.xml</layout>
+                    <layout>Kuis KPK No 8.xml</layout>
+                    <layout>Kuis KPK No 9.xml</layout>
+                    <layout>Kuis KPK No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis KPK No1 Lv2.xml</layout>
+                    <layout>Kuis KPK No2 Lv2.xml</layout>
+                    <layout>Kuis KPK No3 Lv2.xml</layout>
+                    <layout>Kuis KPK No4 Lv2.xml</layout>
+                    <layout>Kuis KPK No5 Lv2.xml</layout>
+                    <layout>Kuis KPK No6 Lv2.xml</layout>
+                    <layout>Kuis KPK No7 Lv2.xml</layout>
+                    <layout>Kuis KPK No8 Lv2.xml</layout>
+                    <layout>Kuis KPK No9 Lv2.xml</layout>
+                    <layout>Kuis KPK No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Materi">
                 <layout>Kelipatan Faktor.xml</layout>
                 <layout>Bilangan Prima.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan KPK No 1.xml</layout>
-                <layout>Penjelasan KPK No 2.xml</layout>
-                <layout>Penjelasan KPK No 3.xml</layout>
-                <layout>Penjelasan KPK No 4.xml</layout>
-                <layout>Penjelasan KPK No 5.xml</layout>
-                <layout>Penjelasan KPK No 6.xml</layout>
-                <layout>Penjelasan KPK No 7.xml</layout>
-                <layout>Penjelasan KPK No 8.xml</layout>
-                <layout>Penjelasan KPK No 9.xml</layout>
-                <layout>Penjelasan KPK No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan KPK No 1.xml</layout>
+                    <layout>Penjelasan KPK No 2.xml</layout>
+                    <layout>Penjelasan KPK No 3.xml</layout>
+                    <layout>Penjelasan KPK No 4.xml</layout>
+                    <layout>Penjelasan KPK No 5.xml</layout>
+                    <layout>Penjelasan KPK No 6.xml</layout>
+                    <layout>Penjelasan KPK No 7.xml</layout>
+                    <layout>Penjelasan KPK No 8.xml</layout>
+                    <layout>Penjelasan KPK No 9.xml</layout>
+                    <layout>Penjelasan KPK No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan KPK No1 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No2 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No3 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No4 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No5 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No6 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No7 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No8 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No9 Lv2.xml</layout>
+                    <layout>Penjelasan KPK No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout>Kelipatan Faktor Bilangan Layout.xml</layout>
+            <layout>Pilih Level KPK.xml</layout>
         </layout-folder>
         <layout-folder name="Materi Panjang Berat">
             <layout-folder name="Kuis">
-                <layout>Kuis Panjang Berat No 1.xml</layout>
-                <layout>Kuis Panjang Berat No 2.xml</layout>
-                <layout>Kuis Panjang Berat No 3.xml</layout>
-                <layout>Kuis Panjang Berat No 4.xml</layout>
-                <layout>Kuis Panjang Berat No 5.xml</layout>
-                <layout>Kuis Panjang Berat No 6.xml</layout>
-                <layout>Kuis Panjang Berat No 7.xml</layout>
-                <layout>Kuis Panjang Berat No 8.xml</layout>
-                <layout>Kuis Panjang Berat No 9.xml</layout>
-                <layout>Kuis Panjang Berat No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis Panjang Berat No 1.xml</layout>
+                    <layout>Kuis Panjang Berat No 2.xml</layout>
+                    <layout>Kuis Panjang Berat No 3.xml</layout>
+                    <layout>Kuis Panjang Berat No 4.xml</layout>
+                    <layout>Kuis Panjang Berat No 5.xml</layout>
+                    <layout>Kuis Panjang Berat No 6.xml</layout>
+                    <layout>Kuis Panjang Berat No 7.xml</layout>
+                    <layout>Kuis Panjang Berat No 8.xml</layout>
+                    <layout>Kuis Panjang Berat No 9.xml</layout>
+                    <layout>Kuis Panjang Berat No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis PBerat No1 Lv2.xml</layout>
+                    <layout>Kuis PBerat No2 Lv2.xml</layout>
+                    <layout>Kuis PBerat No3 Lv2.xml</layout>
+                    <layout>Kuis PBerat No4 Lv2.xml</layout>
+                    <layout>Kuis PBerat No5 Lv2.xml</layout>
+                    <layout>Kuis PBerat No6 Lv2.xml</layout>
+                    <layout>Kuis PBerat No7 Lv2.xml</layout>
+                    <layout>Kuis PBerat No8 Lv2.xml</layout>
+                    <layout>Kuis PBerat No9 Lv2.xml</layout>
+                    <layout>Kuis PBerat No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Materi">
                 <layout>Pengukuran Panjang.xml</layout>
                 <layout>Pengukuran Berat.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan PBerat No 1.xml</layout>
-                <layout>Penjelasan PBerat No 2.xml</layout>
-                <layout>Penjelasan PBerat No 3.xml</layout>
-                <layout>Penjelasan PBerat No 4.xml</layout>
-                <layout>Penjelasan PBerat No 5.xml</layout>
-                <layout>Penjelasan PBerat No 6.xml</layout>
-                <layout>Penjelasan PBerat No 7.xml</layout>
-                <layout>Penjelasan PBerat No 8.xml</layout>
-                <layout>Penjelasan PBerat No 9.xml</layout>
-                <layout>Penjelasan PBerat No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan PBerat No 1.xml</layout>
+                    <layout>Penjelasan PBerat No 2.xml</layout>
+                    <layout>Penjelasan PBerat No 3.xml</layout>
+                    <layout>Penjelasan PBerat No 4.xml</layout>
+                    <layout>Penjelasan PBerat No 5.xml</layout>
+                    <layout>Penjelasan PBerat No 6.xml</layout>
+                    <layout>Penjelasan PBerat No 7.xml</layout>
+                    <layout>Penjelasan PBerat No 8.xml</layout>
+                    <layout>Penjelasan PBerat No 9.xml</layout>
+                    <layout>Penjelasan PBerat No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan PBerat No1 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No2 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No3 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No4 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No5 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No6 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No7 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No8 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No9 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout>Panjang Berat Layout.xml</layout>
+            <layout>Pilih Level Panjang Berat.xml</layout>
         </layout-folder>
-        <layout-folder name="Materi Bangun Datar">
+        <layout-folder name="Materi Bangun Datar - done">
             <layout-folder name="Kuis">
-                <layout>Kuis Bangun Datar No 1.xml</layout>
-                <layout>Kuis Bangun Datar No 2.xml</layout>
-                <layout>Kuis Bangun Datar No 3.xml</layout>
-                <layout>Kuis Bangun Datar No 4.xml</layout>
-                <layout>Kuis Bangun Datar No 5.xml</layout>
-                <layout>Kuis Bangun Datar No 6.xml</layout>
-                <layout>Kuis Bangun Datar No 7.xml</layout>
-                <layout>Kuis Bangun Datar No 8.xml</layout>
-                <layout>Kuis Bangun Datar No 9.xml</layout>
-                <layout>Kuis Bangun Datar No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis Bangun Datar No 1.xml</layout>
+                    <layout>Kuis Bangun Datar No 2.xml</layout>
+                    <layout>Kuis Bangun Datar No 3.xml</layout>
+                    <layout>Kuis Bangun Datar No 4.xml</layout>
+                    <layout>Kuis Bangun Datar No 5.xml</layout>
+                    <layout>Kuis Bangun Datar No 6.xml</layout>
+                    <layout>Kuis Bangun Datar No 7.xml</layout>
+                    <layout>Kuis Bangun Datar No 8.xml</layout>
+                    <layout>Kuis Bangun Datar No 9.xml</layout>
+                    <layout>Kuis Bangun Datar No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis BangunDatar No1 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No2 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No3 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No4 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No5 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No6 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No7 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No8 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No9 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Materi">
                 <layout>Segi Banyak.xml</layout>
@@ -2149,51 +3070,95 @@
                 <layout>Hubungan Antar Garis.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan BDatar No 1.xml</layout>
-                <layout>Penjelasan BDatar No 2.xml</layout>
-                <layout>Penjelasan BDatar No 3.xml</layout>
-                <layout>Penjelasan BDatar No 4.xml</layout>
-                <layout>Penjelasan BDatar No 5.xml</layout>
-                <layout>Penjelasan BDatar No 6.xml</layout>
-                <layout>Penjelasan BDatar No 7.xml</layout>
-                <layout>Penjelasan BDatar No 8.xml</layout>
-                <layout>Penjelasan BDatar No 9.xml</layout>
-                <layout>Penjelasan BDatar No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan BDatar No 1.xml</layout>
+                    <layout>Penjelasan BDatar No 2.xml</layout>
+                    <layout>Penjelasan BDatar No 3.xml</layout>
+                    <layout>Penjelasan BDatar No 4.xml</layout>
+                    <layout>Penjelasan BDatar No 5.xml</layout>
+                    <layout>Penjelasan BDatar No 6.xml</layout>
+                    <layout>Penjelasan BDatar No 7.xml</layout>
+                    <layout>Penjelasan BDatar No 8.xml</layout>
+                    <layout>Penjelasan BDatar No 9.xml</layout>
+                    <layout>Penjelasan BDatar No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan BDatar No1 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No2 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No3 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No4 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No5 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No6 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No7 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No8 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No9 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout>Bangun Datar Layout.xml</layout>
+            <layout>Pilih Level Bangun Datar.xml</layout>
         </layout-folder>
-        <layout-folder name="Materi Data">
+        <layout-folder name="Materi Data - done">
             <layout-folder name="Kuis">
-                <layout>Kuis Data No 1.xml</layout>
-                <layout>Kuis Data No 2.xml</layout>
-                <layout>Kuis Data No 3.xml</layout>
-                <layout>Kuis Data No 4.xml</layout>
-                <layout>Kuis Data No 5.xml</layout>
-                <layout>Kuis Data No 6.xml</layout>
-                <layout>Kuis Data No 7.xml</layout>
-                <layout>Kuis Data No 8.xml</layout>
-                <layout>Kuis Data No 9.xml</layout>
-                <layout>Kuis Data No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis Data No 1.xml</layout>
+                    <layout>Kuis Data No 2.xml</layout>
+                    <layout>Kuis Data No 3.xml</layout>
+                    <layout>Kuis Data No 4.xml</layout>
+                    <layout>Kuis Data No 5.xml</layout>
+                    <layout>Kuis Data No 6.xml</layout>
+                    <layout>Kuis Data No 7.xml</layout>
+                    <layout>Kuis Data No 8.xml</layout>
+                    <layout>Kuis Data No 9.xml</layout>
+                    <layout>Kuis Data No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis Data No1 Lv2.xml</layout>
+                    <layout>Kuis Data No2 Lv2.xml</layout>
+                    <layout>Kuis Data No3 Lv2.xml</layout>
+                    <layout>Kuis Data No4 Lv2.xml</layout>
+                    <layout>Kuis Data No5 Lv2.xml</layout>
+                    <layout>Kuis Data No6 Lv2.xml</layout>
+                    <layout>Kuis Data No7 Lv2.xml</layout>
+                    <layout>Kuis Data No8 Lv2.xml</layout>
+                    <layout>Kuis Data No9 Lv2.xml</layout>
+                    <layout>Kuis Data No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Materi">
                 <layout>Mengenal Data.xml</layout>
                 <layout>Membaca Data.xml</layout>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan Data No 1.xml</layout>
-                <layout>Penjelasan Data No 2.xml</layout>
-                <layout>Penjelasan Data No 3.xml</layout>
-                <layout>Penjelasan Data No 4.xml</layout>
-                <layout>Penjelasan Data No 5.xml</layout>
-                <layout>Penjelasan Data No 6.xml</layout>
-                <layout>Penjelasan Data No 7.xml</layout>
-                <layout>Penjelasan Data No 8.xml</layout>
-                <layout>Penjelasan Data No 9.xml</layout>
-                <layout>Penjelasan Data No 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan Data No 1.xml</layout>
+                    <layout>Penjelasan Data No 2.xml</layout>
+                    <layout>Penjelasan Data No 3.xml</layout>
+                    <layout>Penjelasan Data No 4.xml</layout>
+                    <layout>Penjelasan Data No 5.xml</layout>
+                    <layout>Penjelasan Data No 7.xml</layout>
+                    <layout>Penjelasan Data No 6.xml</layout>
+                    <layout>Penjelasan Data No 8.xml</layout>
+                    <layout>Penjelasan Data No 9.xml</layout>
+                    <layout>Penjelasan Data No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan Data No1 Lv2.xml</layout>
+                    <layout>Penjelasan Data No2 Lv2.xml</layout>
+                    <layout>Penjelasan Data No3 Lv2.xml</layout>
+                    <layout>Penjelasan Data No4 Lv2.xml</layout>
+                    <layout>Penjelasan Data No5 Lv2.xml</layout>
+                    <layout>Penjelasan Data No6 Lv2.xml</layout>
+                    <layout>Penjelasan Data No7 Lv2.xml</layout>
+                    <layout>Penjelasan Data No8 Lv2.xml</layout>
+                    <layout>Penjelasan Data No9 Lv2.xml</layout>
+                    <layout>Penjelasan Data No10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout>Data Layout.xml</layout>
+            <layout>Pilih Level Data.xml</layout>
         </layout-folder>
-        <layout-folder name="Materi Bilangan">
+        <layout-folder name="Materi Bilangan - done">
             <layout-folder name="Materi">
                 <layout>Materi Bilangan Layout.xml</layout>
                 <layout>Materi Operasi - Tambah.xml</layout>
@@ -2202,40 +3167,66 @@
                 <layout>Materi Operasi - Pembagian.xml</layout>
             </layout-folder>
             <layout-folder name="Soal">
-                <layout>Kuis Bilangan Operasi.xml</layout>
-                <layout>Kuis Bilangan Operasi 2.xml</layout>
-                <layout>Kuis Bilangan Operasi 3.xml</layout>
-                <layout>Kuis Bilangan Operasi 4.xml</layout>
-                <layout>Kuis Bilangan Operasi 5.xml</layout>
-                <layout>Kuis Bilangan Operasi 6.xml</layout>
-                <layout>Kuis Bilangan Operasi 7.xml</layout>
-                <layout>Kuis Bilangan Operasi 8.xml</layout>
-                <layout>Kuis Bilangan Operasi 9.xml</layout>
-                <layout>Kuis Bilangan Operasi 10.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Kuis Bilangan Operasi.xml</layout>
+                    <layout>Kuis Bilangan Operasi 2.xml</layout>
+                    <layout>Kuis Bilangan Operasi 3.xml</layout>
+                    <layout>Kuis Bilangan Operasi 4.xml</layout>
+                    <layout>Kuis Bilangan Operasi 5.xml</layout>
+                    <layout>Kuis Bilangan Operasi 6.xml</layout>
+                    <layout>Kuis Bilangan Operasi 7.xml</layout>
+                    <layout>Kuis Bilangan Operasi 8.xml</layout>
+                    <layout>Kuis Bilangan Operasi 9.xml</layout>
+                    <layout>Kuis Bilangan Operasi 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis Bilangan No 1 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 2 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 3 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 4 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 5 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 6 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 7 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 8 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 9 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 10 Lv2.xml</layout>
+                </layout-folder>
             </layout-folder>
             <layout-folder name="Penjelasan">
-                <layout>Penjelasan Soal Operasi 1.xml</layout>
-                <layout>Penjelasan Soal Operasi 3.xml</layout>
-                <layout>Penjelasan Soal Operasi 4.xml</layout>
-                <layout>Penjelasan Soal Operasi 5.xml</layout>
-                <layout>Penjelasan Soal Operasi 6.xml</layout>
-                <layout>Penjelasan Soal Operasi 7.xml</layout>
-                <layout>Penjelasan Soal Operasi 8.xml</layout>
-                <layout>Penjelasan Soal Operasi 9.xml</layout>
-                <layout>Penjelasan Soal Operasi 10.xml</layout>
-                <layout>Penjelasan Soal Operasi 2.xml</layout>
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan Soal Operasi 1.xml</layout>
+                    <layout>Penjelasan Soal Operasi 2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 3.xml</layout>
+                    <layout>Penjelasan Soal Operasi 4.xml</layout>
+                    <layout>Penjelasan Soal Operasi 5.xml</layout>
+                    <layout>Penjelasan Soal Operasi 6.xml</layout>
+                    <layout>Penjelasan Soal Operasi 7.xml</layout>
+                    <layout>Penjelasan Soal Operasi 8.xml</layout>
+                    <layout>Penjelasan Soal Operasi 9.xml</layout>
+                    <layout>Penjelasan Soal Operasi 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan Soal Operasi 1 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 2 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 3 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 4 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 5 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 6 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 7 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 8 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 9 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 10 Lv2.xml</layout>
+                </layout-folder>
                 <layout>Jawaban Salah Operasi.xml</layout>
             </layout-folder>
-            <layout-folder name="Skor">
-                <layout>Skor Materi Operasi.xml</layout>
-            </layout-folder>
+            <layout>Pilih Level Bilangan.xml</layout>
         </layout-folder>
         <layout>Home Layout.xml</layout>
         <layout>List Materi Layout.xml</layout>
         <layout>List Kuis Layout.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-folder name="Pecahan">
+        <event-folder name="Pecahan - done">
             <event-folder name="Materi">
                 <event-sheet>EMengenal Pecahan.xml</event-sheet>
                 <event-sheet>EMengurutkan Pecahan.xml</event-sheet>
@@ -2250,61 +3241,119 @@
                 <event-sheet>Membandingkan Pecahan.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Kuis Pecahan No 1.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 2.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 3.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 4.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 5.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 6.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 7.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 8.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 9.xml</event-sheet>
-                <event-sheet>Kuis Pecahan No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Kuis Pecahan No 1.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 10.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 3.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 4.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 5.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 6.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 7.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 8.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Kuis Pecahan No 1 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 2 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 3 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 4 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 5 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 6 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 7 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 8 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 9 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Pecahan No 10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>EPenjelasan Pecahan No 1.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 2.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 3.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 4.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 5.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 6.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 7.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 8.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 9.xml</event-sheet>
-                <event-sheet>EPenjelasan Pecahan No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>EPenjelasan Pecahan No 1.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 10.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 2.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 3.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 4.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 5.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 6.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 7.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 8.xml</event-sheet>
+                    <event-sheet>EPenjelasan Pecahan No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Penjelasan Pecahan No 1 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 2 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 3 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 4 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 5 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 6 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 7 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 8 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 9 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Pecahan No 10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-sheet>EMateri Pecahan.xml</event-sheet>
+            <event-sheet>Pilih Level Pecahan.xml</event-sheet>
         </event-folder>
-        <event-folder name="Kelipatan Faktor Bilangan">
+        <event-folder name="Kelipatan Faktor Bilangan - done">
             <event-folder name="Materi">
                 <event-sheet>EBilangan Prima.xml</event-sheet>
                 <event-sheet>EKelipatan Faktor.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Kuis KPK No 1.xml</event-sheet>
-                <event-sheet>Kuis KPK No 2.xml</event-sheet>
-                <event-sheet>Kuis KPK No 3.xml</event-sheet>
-                <event-sheet>Kuis KPK No 4.xml</event-sheet>
-                <event-sheet>Kuis KPK No 5.xml</event-sheet>
-                <event-sheet>Kuis KPK No 6.xml</event-sheet>
-                <event-sheet>Kuis KPK No 7.xml</event-sheet>
-                <event-sheet>Kuis KPK No 8.xml</event-sheet>
-                <event-sheet>Kuis KPK No 9.xml</event-sheet>
-                <event-sheet>Kuis KPK No 10.xml</event-sheet>
+                <event-folder name="Level 2">
+                    <event-sheet>Kuis KPK No1 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No2 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No3 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No4 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No5 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No6 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No7 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No8 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No9 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No10 Lv2.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 1">
+                    <event-sheet>Kuis KPK No 1.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 10.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 2.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 3.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 4.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 5.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 6.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 7.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 8.xml</event-sheet>
+                    <event-sheet>Kuis KPK No 9.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>Penjelasan KPK No 1.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 2.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 3.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 4.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 5.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 6.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 7.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 8.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 9.xml</event-sheet>
-                <event-sheet>Penjelasan KPK No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Penjelasan KPK No 1.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 10.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 3.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 4.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 5.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 6.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 7.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 8.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Penjelasan KPK No1 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No2 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No3 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No4 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No5 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No6 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No7 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No8 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No9 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan KPK No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-sheet>EMateri Faktor Bilangan.xml</event-sheet>
+            <event-sheet>Pilih Level KPK.xml</event-sheet>
         </event-folder>
         <event-folder name="Panjang Berat">
             <event-folder name="Materi">
@@ -2312,95 +3361,182 @@
                 <event-sheet>EPengukuran Berat.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Panjang Berat No 1.xml</event-sheet>
-                <event-sheet>Panjang Berat No 2.xml</event-sheet>
-                <event-sheet>Panjang Berat No 3.xml</event-sheet>
-                <event-sheet>Panjang Berat No 4.xml</event-sheet>
-                <event-sheet>Panjang Berat No 5.xml</event-sheet>
-                <event-sheet>Panjang Berat No 6.xml</event-sheet>
-                <event-sheet>Panjang Berat No 7.xml</event-sheet>
-                <event-sheet>Panjang Berat No 8.xml</event-sheet>
-                <event-sheet>Panjang Berat No 9.xml</event-sheet>
-                <event-sheet>Panjang Berat No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Panjang Berat No 1.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 10.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 2.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 3.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 4.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 5.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 6.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 7.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 8.xml</event-sheet>
+                    <event-sheet>Panjang Berat No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>PBerat No1 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No2 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No3 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No4 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No5 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No6 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No7 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No8 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No9 Lv2.xml</event-sheet>
+                    <event-sheet>PBerat No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>Penjelasan Panjang No1.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No2.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No3.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No4.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No5.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No6.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No7.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No8.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No9.xml</event-sheet>
-                <event-sheet>Penjelasan Panjang No10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Penjelasan Panjang No1.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No10.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No2.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No3.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No4.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No5.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No6.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No7.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No8.xml</event-sheet>
+                    <event-sheet>Penjelasan Panjang No9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Penjelasan PBerat No1 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No2 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No3 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No4 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No5 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No6 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No7 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No8 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No9 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan PBerat No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-sheet>EMateri Panjang Berat.xml</event-sheet>
+            <event-sheet>Pilih Level Panjang Berat.xml</event-sheet>
         </event-folder>
-        <event-folder name="Bangun Datar">
+        <event-folder name="Bangun Datar - done">
             <event-folder name="Materi">
                 <event-sheet>ESegi Banyak.xml</event-sheet>
                 <event-sheet>EKeliling Luas.xml</event-sheet>
                 <event-sheet>EAntar Garis.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Bangun Datar No 1.xml</event-sheet>
-                <event-sheet>Bangun Datar No 2.xml</event-sheet>
-                <event-sheet>Bangun Datar No 3.xml</event-sheet>
-                <event-sheet>Bangun Datar No 4.xml</event-sheet>
-                <event-sheet>Bangun Datar No 5.xml</event-sheet>
-                <event-sheet>Bangun Datar No 6.xml</event-sheet>
-                <event-sheet>Bangun Datar No 7.xml</event-sheet>
-                <event-sheet>Bangun Datar No 8.xml</event-sheet>
-                <event-sheet>Bangun Datar No 9.xml</event-sheet>
-                <event-sheet>Bangun Datar No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Bangun Datar No 1.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 10.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 2.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 3.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 4.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 5.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 7.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 6.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 8.xml</event-sheet>
+                    <event-sheet>Bangun Datar No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>BDatar No1 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No2 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No3 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No4 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No5 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No6 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No7 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No8 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No9 Lv2.xml</event-sheet>
+                    <event-sheet>BDatar No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>PenjelasanBangun Datar No 1.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 2.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 3.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 4.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 5.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 6.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 7.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 8.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 9.xml</event-sheet>
-                <event-sheet>PenjelasanBangun Datar No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>PenjelasanBangun Datar No 1.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 10.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 3.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 4.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 5.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 6.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 7.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 8.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>PenjelasanBangun Datar No1 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No2 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No3 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No4 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No5 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No6 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No7 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No8 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No9 Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanBangun Datar No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-sheet>EMateri Bangun Datar.xml</event-sheet>
+            <event-sheet>Pilih Level Bangun Datar.xml</event-sheet>
         </event-folder>
-        <event-folder name="Data">
+        <event-folder name="Data - done">
             <event-folder name="Materi">
                 <event-sheet>EMengenal Data.xml</event-sheet>
                 <event-sheet>EMembaca Data.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Data No 1.xml</event-sheet>
-                <event-sheet>Data No 2.xml</event-sheet>
-                <event-sheet>Data No 3.xml</event-sheet>
-                <event-sheet>Data No 4.xml</event-sheet>
-                <event-sheet>Data No 5.xml</event-sheet>
-                <event-sheet>Data No 6.xml</event-sheet>
-                <event-sheet>Data No 7.xml</event-sheet>
-                <event-sheet>Data No 8.xml</event-sheet>
-                <event-sheet>Data No 9.xml</event-sheet>
-                <event-sheet>Data No 10.xml</event-sheet>
+                <event-folder name="Level 2">
+                    <event-sheet>Data No1 Lv2.xml</event-sheet>
+                    <event-sheet>Data No2 Lv2.xml</event-sheet>
+                    <event-sheet>Data No3 Lv2.xml</event-sheet>
+                    <event-sheet>Data No4 Lv2.xml</event-sheet>
+                    <event-sheet>Data No5 Lv2.xml</event-sheet>
+                    <event-sheet>Data No6 Lv2.xml</event-sheet>
+                    <event-sheet>Data No7 Lv2.xml</event-sheet>
+                    <event-sheet>Data No8 Lv2.xml</event-sheet>
+                    <event-sheet>Data No9 Lv2.xml</event-sheet>
+                    <event-sheet>Data No10 Lv2.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 1">
+                    <event-sheet>Data No 1.xml</event-sheet>
+                    <event-sheet>Data No 10.xml</event-sheet>
+                    <event-sheet>Data No 2.xml</event-sheet>
+                    <event-sheet>Data No 3.xml</event-sheet>
+                    <event-sheet>Data No 4.xml</event-sheet>
+                    <event-sheet>Data No 5.xml</event-sheet>
+                    <event-sheet>Data No 6.xml</event-sheet>
+                    <event-sheet>Data No 7.xml</event-sheet>
+                    <event-sheet>Data No 8.xml</event-sheet>
+                    <event-sheet>Data No 9.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>Penjelasan Data No 1.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 2.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 3.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 4.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 5.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 6.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 7.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 8.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 9.xml</event-sheet>
-                <event-sheet>Penjelasan Data No 10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Penjelasan Data No 1.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 10.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 3.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 4.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 5.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 6.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 7.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 8.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Penjelasan Data No1 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No2 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No3 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No4 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No5 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No6 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No7 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No8 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No9 Lv2.xml</event-sheet>
+                    <event-sheet>Penjelasan Data No10 Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-sheet>EMateri Data.xml</event-sheet>
+            <event-sheet>Pilih Level Data.xml</event-sheet>
         </event-folder>
-        <event-folder name="Bilangan">
+        <event-folder name="Bilangan - done">
             <event-folder name="Materi">
                 <event-sheet>Materi Bilangan Layout.xml</event-sheet>
                 <event-sheet>Materi Operasi.xml</event-sheet>
@@ -2409,34 +3545,63 @@
                 <event-sheet>Operasi Hitung Pembagian.xml</event-sheet>
             </event-folder>
             <event-folder name="Kuis">
-                <event-sheet>Kuis Bilangan Operasi.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 2.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>Kuis Bilangan Operasi.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 10.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 3.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 4.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 5.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 6.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 7.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 8.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan Operasi 9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>Kuis Bilangan 1 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 2 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 3 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 4 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 5 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 6 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 7 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 8 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 9 Lv2.xml</event-sheet>
+                    <event-sheet>Kuis Bilangan 10 Lv2.xml</event-sheet>
+                </event-folder>
                 <event-sheet>Copas.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 3.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 4.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 5.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 6.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 7.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 8.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 9.xml</event-sheet>
-                <event-sheet>Kuis Bilangan Operasi 10.xml</event-sheet>
             </event-folder>
             <event-folder name="Penjelasan">
-                <event-sheet>PenjelasanOperasi1.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi2.xml</event-sheet>
-                <event-sheet>ESalahJawabanOperasi.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi3.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi4.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi5.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi6.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi7.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi8.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi9.xml</event-sheet>
-                <event-sheet>PenjelasanOperasi10.xml</event-sheet>
+                <event-folder name="Level 1">
+                    <event-sheet>ESalahJawabanOperasi.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi1.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi10.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi3.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi4.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi5.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi6.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi7.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi8.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasi9.xml</event-sheet>
+                </event-folder>
+                <event-folder name="Level 2">
+                    <event-sheet>PenjelasanOperasiNo1Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo2Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo3Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo4Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo5Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo6Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo7Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo8Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo9Lv2.xml</event-sheet>
+                    <event-sheet>PenjelasanOperasiNo10Lv2.xml</event-sheet>
+                </event-folder>
             </event-folder>
             <event-folder name="Skor">
                 <event-sheet>ESkorOperasi.xml</event-sheet>
             </event-folder>
+            <event-sheet>Pilih Level Bilangan.xml</event-sheet>
         </event-folder>
         <event-sheet>Home Layout.xml</event-sheet>
         <event-sheet>List Materi Layout.xml</event-sheet>
@@ -2469,6 +3634,7 @@
                 <analog-deadzone>25</analog-deadzone>
             </properties>
         </global-instance>
+        <global-instance type="no10BDLv2" uid="2269" />
     </global-instances>
     <sounds-folder>
         <file name="Kids Children Funny Cute Background Music.m4a" />

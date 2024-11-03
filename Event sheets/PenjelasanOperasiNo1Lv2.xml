@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PenjelasanOperasiNo1Lv2</name>
+    <events>
+        <event-block sid="433039133726338">
+            <conditions>
+                <condition id="3" name="On touched object" sid="916095308410760" type="Touch">
+                    <param id="0" name="Object">btnNextSoalLevel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="575179796013064" type="System">
+                    <param id="0" name="Layout">Kuis Bilangan No 2 Lv2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

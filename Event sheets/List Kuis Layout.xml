@@ -221,7 +221,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="375953186305263" type="System">
-                            <param id="0" name="Layout">Kuis Bilangan Operasi</param>
+                            <param id="0" name="Layout">Pilih Level Bilangan</param>
                         </action>
                     </actions>
                 </event-block>
@@ -233,7 +233,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="745247161389694" type="System">
-                            <param id="0" name="Layout">Kuis Pecahan No 1</param>
+                            <param id="0" name="Layout">Pilih Level Pecahan</param>
                         </action>
                     </actions>
                 </event-block>
@@ -245,7 +245,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="735564411444216" type="System">
-                            <param id="0" name="Layout">Kuis KPK No 1</param>
+                            <param id="0" name="Layout">Pilih Level KPK</param>
                         </action>
                     </actions>
                 </event-block>
@@ -257,7 +257,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="102625546143677" type="System">
-                            <param id="0" name="Layout">Kuis Panjang Berat No 1</param>
+                            <param id="0" name="Layout">Pilih Level Panjang Berat</param>
                         </action>
                     </actions>
                 </event-block>
@@ -269,7 +269,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="506418142037334" type="System">
-                            <param id="0" name="Layout">Kuis Bangun Datar No 1</param>
+                            <param id="0" name="Layout">Pilih Level Bangun Datar</param>
                         </action>
                     </actions>
                 </event-block>
@@ -281,7 +281,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="819094906598743" type="System">
-                            <param id="0" name="Layout">Kuis Data No 1</param>
+                            <param id="0" name="Layout">Pilih Level Data</param>
                         </action>
                     </actions>
                 </event-block>
