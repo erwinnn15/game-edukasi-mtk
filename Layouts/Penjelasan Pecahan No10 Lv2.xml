@@ -116,7 +116,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>512</x>
-                        <y>117</y>
+                        <y>110.750366211</y>
                         <z>0</z>
                         <width>278</width>
                         <height>66</height>
@@ -233,6 +233,28 @@
                         <depth>0</depth>
                         <hotspotX>0.500425518</hotspotX>
                         <hotspotY>0.500507593</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanPch10Lv2" uid="2592">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>632.489501953</x>
+                        <y>386.902954102</y>
+                        <z>0</z>
+                        <width>978</width>
+                        <height>436.194030762</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5005005</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

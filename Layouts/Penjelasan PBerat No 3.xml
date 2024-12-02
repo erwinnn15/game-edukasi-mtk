@@ -61,11 +61,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
-                        <y>286</y>
+                        <x>680</x>
+                        <y>302</y>
                         <z>0</z>
-                        <width>1342.487915039</width>
-                        <height>708.830200195</height>
+                        <width>1453</width>
+                        <height>772</height>
                         <depth>0</depth>
                         <hotspotX>0.500080705</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1203">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Timbangan badan dan neraca adalah alat ukur berat atau massa. Timbangan badan digunakan untuk mengukur berat tubuh, sedangkan neraca (seperti neraca dua lengan) digunakan untuk mengukur massa benda dengan membandingkannya dengan anak timbangan.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -88,11 +88,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>300</x>
-                        <y>193</y>
+                        <x>250</x>
+                        <y>154</y>
                         <z>0</z>
-                        <width>692</width>
-                        <height>239</height>
+                        <width>846</width>
+                        <height>182</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -173,10 +173,64 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>510</x>
-                        <y>111</y>
+                        <y>107</y>
                         <z>0</z>
                         <width>278</width>
                         <height>66</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textPenjelasan" uid="2509">
+                    <properties>
+                        <text>Penggaris adalah alat ukur panjang, digunakan untuk mengukur dimensi linear seperti panjang, lebar, atau tinggi suatu benda, bukan berat.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>247</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>846</width>
+                        <height>119</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textPenjelasan" uid="2510">
+                    <properties>
+                        <text>Kesimpulan : Penggaris tidak termasuk alat ukur berat.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>246.789459229</x>
+                        <y>448.035217285</y>
+                        <z>0</z>
+                        <width>846</width>
+                        <height>55.139526367</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

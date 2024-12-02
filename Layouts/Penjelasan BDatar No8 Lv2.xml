@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="2302">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Dua garis yang tidak pernah bertemu dan selalu berjarak sama disebut garis sejajar.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -91,7 +91,7 @@
                         <x>286</x>
                         <y>186</y>
                         <z>0</z>
-                        <width>692</width>
+                        <width>762</width>
                         <height>239</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

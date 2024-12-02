@@ -127,6 +127,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="penjBDatar6Lv2" uid="2627">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>645.01776123</x>
+                        <y>371.272979736</y>
+                        <z>0</z>
+                        <width>822.035522461</width>
+                        <height>400.545959473</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

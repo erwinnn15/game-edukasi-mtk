@@ -40,7 +40,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>639</x>
-                        <y>355</y>
+                        <y>359</y>
                         <z>0</z>
                         <width>1290</width>
                         <height>725</height>
@@ -123,6 +123,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjLBDatar7Lv2" uid="2628">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>655</x>
+                        <y>374</y>
+                        <z>0</z>
+                        <width>828</width>
+                        <height>412</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500717342</hotspotX>
+                        <hotspotY>0.501385033</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

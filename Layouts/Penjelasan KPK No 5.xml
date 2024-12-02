@@ -61,11 +61,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
+                        <x>648</x>
                         <y>284</y>
                         <z>0</z>
-                        <width>1342.487915039</width>
-                        <height>708.830200195</height>
+                        <width>1294</width>
+                        <height>709</height>
                         <depth>0</depth>
                         <hotspotX>0.500080705</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -180,6 +180,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanKPK5Lv1" uid="2632">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>633</x>
+                        <y>333</y>
+                        <z>0</z>
+                        <width>659.277404785</width>
+                        <height>341.507232666</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500580728</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

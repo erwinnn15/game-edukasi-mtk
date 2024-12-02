@@ -127,6 +127,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="penjelasanPch2Lv2" uid="2583">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>415.485473633</x>
+                        <y>377.803955078</y>
+                        <z>0</z>
+                        <width>554.250305176</width>
+                        <height>434.607208252</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500650167</hotspotX>
+                        <hotspotY>0.50082916</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanPch22Lv2" uid="2584">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>944.53704834</x>
+                        <y>232.371917725</y>
+                        <z>0</z>
+                        <width>479.07409668</width>
+                        <height>138.636169434</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502958596</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

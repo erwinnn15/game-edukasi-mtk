@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="2125">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Fungsi dari grafik atau tabel dalam data adalah untuk memudahkan kita dalam membaca dan memahami data. Grafik atau tabel menyajikan data dalam bentuk visual yang lebih jelas, sehingga mempermudah analisis dan interpretasi informasi yang ada.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -88,10 +88,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>287</x>
-                        <y>192</y>
+                        <x>204</x>
+                        <y>233</y>
                         <z>0</z>
-                        <width>692</width>
+                        <width>868</width>
                         <height>239</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

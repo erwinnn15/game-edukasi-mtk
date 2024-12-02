@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="671">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Dalam bilangan 9.123, angka 9 berada di posisi ribuan, angka 1 berada di posisi ratusan, angka 2 berada di posisi puluhan, dan angka 3 berada di posisi satuan.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>
@@ -92,7 +92,7 @@
                         <y>187</y>
                         <z>0</z>
                         <width>692</width>
-                        <height>239</height>
+                        <height>104</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -177,6 +177,33 @@
                         <z>0</z>
                         <width>278</width>
                         <height>66</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textPenjelasan" uid="2593">
+                    <properties>
+                        <text>Jadi, angka di posisi ratusan adalah 1.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>305</x>
+                        <y>299</y>
+                        <z>0</z>
+                        <width>692</width>
+                        <height>104</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1804">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Yang merupakan faktor dari 18 adalah 6.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -89,10 +89,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>285</x>
-                        <y>186</y>
+                        <y>495</y>
                         <z>0</z>
                         <width>692</width>
-                        <height>239</height>
+                        <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -123,6 +123,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanKPK4Lv2" uid="2638">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>642</x>
+                        <y>308</y>
+                        <z>0</z>
+                        <width>910.124450684</width>
+                        <height>286.976165771</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500900924</hotspotX>
+                        <hotspotY>0.502857149</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1323">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>K = 54 cm dan         L = 84 cm persegi </text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>
@@ -88,10 +88,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>297</x>
+                        <x>806</x>
                         <y>190</y>
                         <z>0</z>
-                        <width>692</width>
+                        <width>236</width>
                         <height>239</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -180,6 +180,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanBDatar4Lv1" uid="2621">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>527</x>
+                        <y>374</y>
+                        <z>0</z>
+                        <width>535.266906738</width>
+                        <height>431.316986084</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500591695</hotspotX>
+                        <hotspotY>0.500763357</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

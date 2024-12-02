@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1812">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Bilangan prima adalah bilangan yang hanya memiliki dua pembagi, yaitu 1 dan dirinya sendiri. 2 adalah bilangan prima terkecil karena hanya bisa dibagi oleh 1 dan 2 itu sendiri.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-32,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

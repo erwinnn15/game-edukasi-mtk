@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="2278">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Segi lima adalah bangun datar dengan 5 sisi dan 5 sudut. Jika semua sisi dan sudutnya sama besar, maka disebut segi lima beraturan.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

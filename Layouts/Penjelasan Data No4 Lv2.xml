@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="2113">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Data yang akurat biasanya diperoleh dari pengamatan langsung karena pengamatan langsung memberikan informasi yang langsung terkait dengan objek atau kejadian yang diamati. Sumber data lain seperti cerita imajinasi atau rekaman suara dapat digunakan, tetapi mereka tidak selalu memberikan data yang valid atau relevan.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -88,11 +88,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>287</x>
+                        <x>179</x>
                         <y>192</y>
                         <z>0</z>
-                        <width>692</width>
-                        <height>239</height>
+                        <width>935</width>
+                        <height>260</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

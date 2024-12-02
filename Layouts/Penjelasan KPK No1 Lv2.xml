@@ -127,6 +127,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="penjelasanKPK1Lv2" uid="2635">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>641</x>
+                        <y>364</y>
+                        <z>0</z>
+                        <width>980.637634277</width>
+                        <height>367.301849365</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500594556</hotspotX>
+                        <hotspotY>0.501587331</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

@@ -62,10 +62,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>665</x>
-                        <y>280</y>
+                        <y>288</y>
                         <z>0</z>
-                        <width>1342.487915039</width>
-                        <height>708.830200195</height>
+                        <width>1342</width>
+                        <height>747</height>
                         <depth>0</depth>
                         <hotspotX>0.500080705</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -180,6 +180,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanData1Lv1" uid="2607">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>651.964111328</x>
+                        <y>333.898864746</y>
+                        <z>0</z>
+                        <width>777</width>
+                        <height>347</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500597358</hotspotX>
+                        <hotspotY>0.501149416</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

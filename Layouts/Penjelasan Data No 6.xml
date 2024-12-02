@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1284">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Selisih produksi gula pada tahun 2010 dan 2014 adalah 350 ton.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>
@@ -92,7 +92,7 @@
                         <y>187</y>
                         <z>0</z>
                         <width>692</width>
-                        <height>239</height>
+                        <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -177,6 +177,33 @@
                         <z>0</z>
                         <width>278</width>
                         <height>66</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textPenjelasan" uid="2610">
+                    <properties>
+                        <text>450 - 100 = 350 ton</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>306</x>
+                        <y>271</y>
+                        <z>0</z>
+                        <width>244</width>
+                        <height>47</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

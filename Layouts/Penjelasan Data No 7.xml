@@ -184,6 +184,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="penjelasanData7Lv1" uid="2611">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>650</x>
+                        <y>332</y>
+                        <z>0</z>
+                        <width>764</width>
+                        <height>340</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500531375</hotspotX>
+                        <hotspotY>0.500994027</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

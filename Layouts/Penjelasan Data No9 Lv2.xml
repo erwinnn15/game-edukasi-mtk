@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="2133">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Dalam sebuah tabel data siswa, kolom yang berisi nama siswa disebut kolom nama, karena kolom tersebut khusus untuk menampilkan informasi tentang nama siswa.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -88,10 +88,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>287</x>
+                        <x>230</x>
                         <y>192</y>
                         <z>0</z>
-                        <width>692</width>
+                        <width>824</width>
                         <height>239</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

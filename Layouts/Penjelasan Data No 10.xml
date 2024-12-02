@@ -62,10 +62,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>659</x>
-                        <y>282</y>
+                        <y>307</y>
                         <z>0</z>
-                        <width>1342.487915039</width>
-                        <height>708.830200195</height>
+                        <width>1342</width>
+                        <height>798</height>
                         <depth>0</depth>
                         <hotspotX>0.500080705</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="1308">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Jawabannya adalah Diagram Batang</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>
@@ -88,10 +88,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>295</x>
-                        <y>189</y>
+                        <x>749</x>
+                        <y>223</y>
                         <z>0</z>
-                        <width>692</width>
+                        <width>295</width>
                         <height>239</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -290,6 +290,28 @@
                         <depth>0</depth>
                         <hotspotX>0.500425518</hotspotX>
                         <hotspotY>0.500507593</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanData10Lv1" uid="2614">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>490</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>486</width>
+                        <height>406</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500674784</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

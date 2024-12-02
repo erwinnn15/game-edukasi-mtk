@@ -184,6 +184,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="penjelasanBdatar8Lv1" uid="2623">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>646.065917969</x>
+                        <y>261.766479492</y>
+                        <z>0</z>
+                        <width>766.131774902</width>
+                        <height>190.612106323</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502415478</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

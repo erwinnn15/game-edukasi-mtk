@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="textPenjelasan" uid="386">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>36 merupakan kelipatan dari 12, karena 36 ÷ 12 = 3 (bilangan bulat).</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-24,400,0</font>
+                        <font>Arial Rounded MT Bold,-29.3333,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

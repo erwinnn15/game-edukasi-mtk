@@ -10,11 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="4">Kuis PBerat No10 Lv2</layout>
-        <event-sheet order="0">PBerat No9 Lv2</event-sheet>
-        <event-sheet active="1" order="1">PBerat No10 Lv2</event-sheet>
-        <event-sheet order="2">Kuis Pecahan No 10 Lv2</event-sheet>
-        <event-sheet order="3">PBerat No1 Lv2</event-sheet>
+        <layout active="1" order="0">Kuis KPK No8 Lv2</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -26,15 +22,47 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan - done/" />
-        <folder expanded="1" path="layout-folder/Materi Pecahan - done/Kuis/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan - done/Kuis/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Pecahan - done/Kuis/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan - done/Materi/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan - done/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Pecahan - done/Penjelasan/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Pecahan - done/Penjelasan/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Soal/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/Soal/Level 1/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Soal/Level 2/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Bilangan/Penjelasan/Level 1/" />
+        <folder expanded="1" path="layout-folder/Materi Bilangan/Penjelasan/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Data/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Kuis/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Kuis/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Materi/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Penjelasan/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Data/Penjelasan/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/" />
+        <folder expanded="1" path="layout-folder/Materi Bangun Datar/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/Kuis/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/Kuis/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Bangun Datar/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/Penjelasan/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Bangun Datar/Penjelasan/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/" />
+        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Kuis/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Kuis/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Penjelasan/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Penjelasan/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/" />
+        <folder expanded="1" path="layout-folder/Materi Pecahan/Kuis/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Kuis/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Kuis/Level 2/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Materi/" />
+        <folder expanded="1" path="layout-folder/Materi Pecahan/Penjelasan/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/Level 1/" />
+        <folder expanded="0" path="layout-folder/Materi Pecahan/Penjelasan/Level 2/" />
+        <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Kuis/" />
         <folder expanded="0" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Kuis/Level 1/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Kuis/Level 2/" />
@@ -42,40 +70,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Penjelasan/" />
         <folder expanded="0" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Penjelasan/Level 1/" />
         <folder expanded="1" path="layout-folder/Materi Kelipatan Faktor Bilangan - done/Penjelasan/Level 2/" />
-        <folder expanded="1" path="layout-folder/Materi Panjang Berat/" />
-        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Kuis/" />
-        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Kuis/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Kuis/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Materi/" />
-        <folder expanded="1" path="layout-folder/Materi Panjang Berat/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Penjelasan/Level 1/" />
-        <folder expanded="0" path="layout-folder/Materi Panjang Berat/Penjelasan/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Bangun Datar - done/" />
-        <folder expanded="1" path="layout-folder/Materi Bangun Datar - done/Kuis/" />
-        <folder expanded="0" path="layout-folder/Materi Bangun Datar - done/Kuis/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Bangun Datar - done/Kuis/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Bangun Datar - done/Materi/" />
-        <folder expanded="1" path="layout-folder/Materi Bangun Datar - done/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Bangun Datar - done/Penjelasan/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Bangun Datar - done/Penjelasan/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/" />
-        <folder expanded="1" path="layout-folder/Materi Data - done/Kuis/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Kuis/Level 1/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Kuis/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Materi/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Penjelasan/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Penjelasan/Level 1/" />
-        <folder expanded="0" path="layout-folder/Materi Data - done/Penjelasan/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Bilangan - done/" />
-        <folder expanded="0" path="layout-folder/Materi Bilangan - done/Materi/" />
-        <folder expanded="0" path="layout-folder/Materi Bilangan - done/Soal/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan - done/Soal/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan - done/Soal/Level 2/" />
-        <folder expanded="0" path="layout-folder/Materi Bilangan - done/Penjelasan/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan - done/Penjelasan/Level 1/" />
-        <folder expanded="1" path="layout-folder/Materi Bilangan - done/Penjelasan/Level 2/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Pecahan - done/" />
+        <folder expanded="0" path="event-folder/Pecahan - done/" />
         <folder expanded="0" path="event-folder/Pecahan - done/Materi/" />
         <folder expanded="1" path="event-folder/Pecahan - done/Kuis/" />
         <folder expanded="0" path="event-folder/Pecahan - done/Kuis/Level 1/" />
@@ -83,15 +79,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Pecahan - done/Penjelasan/" />
         <folder expanded="0" path="event-folder/Pecahan - done/Penjelasan/Level 1/" />
         <folder expanded="1" path="event-folder/Pecahan - done/Penjelasan/Level 2/" />
-        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/" />
         <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Materi/" />
-        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/" />
-        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/Level 2/" />
-        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/Level 1/" />
-        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/Penjelasan/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/" />
+        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/Level 2/" />
+        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/Kuis/Level 1/" />
+        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Penjelasan/" />
         <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Penjelasan/Level 1/" />
-        <folder expanded="1" path="event-folder/Kelipatan Faktor Bilangan - done/Penjelasan/Level 2/" />
-        <folder expanded="1" path="event-folder/Panjang Berat/" />
+        <folder expanded="0" path="event-folder/Kelipatan Faktor Bilangan - done/Penjelasan/Level 2/" />
+        <folder expanded="0" path="event-folder/Panjang Berat/" />
         <folder expanded="0" path="event-folder/Panjang Berat/Materi/" />
         <folder expanded="1" path="event-folder/Panjang Berat/Kuis/" />
         <folder expanded="0" path="event-folder/Panjang Berat/Kuis/Level 1/" />
@@ -434,5 +430,62 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/no8BDLv2/" />
         <folder expanded="1" path="animation-folder/no9BDLv2/" />
         <folder expanded="1" path="animation-folder/no100BDLv2/" />
+        <folder expanded="1" path="animation-folder/penjpecahan3lv1/" />
+        <folder expanded="1" path="animation-folder/penjel4peclv1/" />
+        <folder expanded="1" path="animation-folder/pjlsPech5Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch6Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch7Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch8Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch9Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch10lLv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch2Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch22Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch3Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch4Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch5Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch6Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch7Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch8Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch9Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanPch10Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil2Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil3Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil4Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil5Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelaanBil6Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil7Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil8Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil9Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBil10Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanData1Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData3Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData4Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData7Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData88Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData9Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanData10Lv1/" />
+        <folder expanded="1" path="animation-folder/penjekasanData6Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanDataNo10Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanBdatar1Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBDatar2Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBdatar3Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBDatar4Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBDatar5Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBdatar8Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanBdatar9lv1/" />
+        <folder expanded="1" path="animation-folder/penjBDatar4Lv2/" />
+        <folder expanded="1" path="animation-folder/penjBdatar5Lv2/" />
+        <folder expanded="1" path="animation-folder/penjBDatar6Lv2/" />
+        <folder expanded="1" path="animation-folder/penjLBDatar7Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK3Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK4Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK5Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK6Lv1/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK6Lv11/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK1Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK2Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK4Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK5Lv2/" />
+        <folder expanded="1" path="animation-folder/penjelasanKPK7Lv2/" />
     </folders-expanded>
 </c2uistate>

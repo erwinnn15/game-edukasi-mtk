@@ -12,12 +12,14 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Geolocation" version="1">Geolocation</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="UserMedia" version="1">User Media</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
     <used-behaviors>
@@ -2846,10 +2848,719 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="penjpecahan3lv1" sid="232632808812373">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427610578031447" speed="5">
+                    <frame duration="1" hotspotX="0.500448" hotspotY="0.501661" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 011507.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjel4peclv1" sid="669367857094840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="598865798176608" speed="5">
+                    <frame duration="1" hotspotX="0.500502" hotspotY="0.500818" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 011939.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pjlsPech5Lv1" sid="626191678141153">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555711364006930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501053" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 012248.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pnPch6Lv1" sid="842285447731578">
+            <plugin id="Geolocation" />
+        </object-type>
+        <object-type name="penjelasanPch6Lv1" sid="696030222782634">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163782715764412" speed="5">
+                    <frame duration="1" hotspotX="0.500457" hotspotY="0.50173" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 012645.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch7Lv1" sid="300603370936281">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822626541225648" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 013045.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch8Lv1" sid="895706989374117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502093287921906" speed="5">
+                    <frame duration="1" hotspotX="0.500457" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 013437.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch9Lv1" sid="707611870134387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978867894135564" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 013958.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch10lLv1" sid="105699416273172">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="485965156361180" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503226" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 014501.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch2Lv2" sid="742077384609838">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322428097445029" speed="5">
+                    <frame duration="1" hotspotX="0.50065" hotspotY="0.500829" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 015457.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch2_1Lv2" sid="897866529977450">
+            <plugin id="UserMedia" />
+        </object-type>
+        <object-type name="penjelasanPch22Lv2" sid="258781843334091">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377912137039523" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502959" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 015605.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch3Lv2" sid="398944341452269">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191561719387732" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500911" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 015851.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch4Lv2" sid="649913579995334">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770594066168073" speed="5">
+                    <frame duration="1" hotspotX="0.500609" hotspotY="0.501014" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 020147.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch5Lv2" sid="305161735102448">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686847178135421" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500928" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 020429.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch6Lv2" sid="848042717434327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950175326043987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50079" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 020636.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch7Lv2" sid="593308473184488">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506344079240804" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 021358.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch8Lv2" sid="440895813342917">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699122453013560" speed="5">
+                    <frame duration="1" hotspotX="0.5006" hotspotY="0.500741" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 021722.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch9Lv2" sid="553993718235674">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272948204427311" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500816" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 022100.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanPch10Lv2" sid="245791951449080">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781135729984160" speed="5">
+                    <frame duration="1" hotspotX="0.500501" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 022633.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil2Lv2" sid="993557470905336">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601614375930027" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 024201.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil3Lv2" sid="283391411634676">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771593045444389" speed="5">
+                    <frame duration="1" hotspotX="0.500588" hotspotY="0.501887" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 024345.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil4Lv2" sid="995185577733010">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635447307619389" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501567" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 024615.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil5Lv2" sid="629201606224092">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674409550620875" speed="5">
+                    <frame duration="1" hotspotX="0.500579" hotspotY="0.501035" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 024806.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelaanBil6Lv2" sid="422933539864260">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893075331090924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 024945.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil7Lv2" sid="125825111762786">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965454236802456" speed="5">
+                    <frame duration="1" hotspotX="0.500597" hotspotY="0.501587" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 025156.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil8Lv2" sid="386590050957810">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="765431881247070" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 025356.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil9Lv2" sid="280110931517075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836659700524517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501832" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 025530.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBil10Lv2" sid="959195388152532">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357110476882486" speed="5">
+                    <frame duration="1" hotspotX="0.500618" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 025710.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData1Lv1" sid="621282638684743">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665757530042799" speed="5">
+                    <frame duration="1" hotspotX="0.500597" hotspotY="0.501149" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 025922.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData3Lv1" sid="185166585756612">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="393043108408603" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 030201.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData4Lv1" sid="773024427881890">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133483000043541" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 150825.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData7Lv1" sid="972866004751176">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762457262342853" speed="5">
+                    <frame duration="1" hotspotX="0.500531" hotspotY="0.500994" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 151541.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData8Lv1" sid="456533901318991">
+            <plugin id="UserMedia" />
+        </object-type>
+        <object-type name="penjelasanData88Lv1" sid="172723399777112">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="297297682521696" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 151802.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData9Lv1" sid="219763208470799">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713864537819913" speed="5">
+                    <frame duration="1" hotspotX="0.500662" hotspotY="0.500707" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 152123.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanData10Lv1" sid="178942339980558">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677654320023083" speed="5">
+                    <frame duration="1" hotspotX="0.500675" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 152611.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjekasanData6Lv2" sid="573129670340590">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698823892394170" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502058" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 153901.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanDataNo10Lv2" sid="354265641588682">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="750312800443087" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 155155.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBdatar1Lv1" sid="739517481003396">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262775411420519" speed="5">
+                    <frame duration="1" hotspotX="0.500668" hotspotY="0.500838" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 160704.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBDatar2Lv1" sid="660145953669551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344304502656195" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 162522.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBdatar3Lv1" sid="277364092583159">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274936263383713" speed="5">
+                    <frame duration="1" hotspotX="0.500846" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-11-30 163105.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBDatar4Lv1" sid="380102174654341">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279282920105848" speed="5">
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500763" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 085344.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBDatar5Lv1" sid="695178040498840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695481754058887" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 085859.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBdatar8Lv1" sid="921833871268586">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970431634914418" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502415" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 090344.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanBdatar9lv1" sid="495671476996053">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952323394448038" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 090609.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjBDatar4Lv2" sid="840557719181818">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415498562343675" speed="5">
+                    <frame duration="1" hotspotX="0.500846" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 091318.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjBdatar5Lv2" sid="353114720291153">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838709910240371" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 091444.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjBDatar6Lv2" sid="860585060602407">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="576745905250309" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 091628.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjLBDatar7Lv2" sid="344962305060865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542286482934174" speed="5">
+                    <frame duration="1" hotspotX="0.500717" hotspotY="0.501385" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 091902.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK3Lv1" sid="542219974424878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570945712903232" speed="5">
+                    <frame duration="1" hotspotX="0.500446" hotspotY="0.501155" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 093738.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK4Lv1" sid="644017142199654">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927868212893879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501044" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 094015.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK5Lv1" sid="585598542464955">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386154463651308" speed="5">
+                    <frame duration="1" hotspotX="0.500581" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 094225.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK6Lv1" sid="879499144212979">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799864172397750" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 094611.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK6Lv11" sid="211528183256104">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265858041281789" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501144" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 094815.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK1Lv2" sid="103905534243706">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275102552970288" speed="5">
+                    <frame duration="1" hotspotX="0.500595" hotspotY="0.501587" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 095332.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK2Lv2" sid="984052159398155">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912186121169161" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 095458.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK4Lv2" sid="469599547356895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="295354744077542" speed="5">
+                    <frame duration="1" hotspotX="0.500901" hotspotY="0.502857" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 095859.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK5Lv2" sid="726855285014276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883647531978364" speed="5">
+                    <frame duration="1" hotspotX="0.500637" hotspotY="0.500904" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 100052.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penjelasanKPK7Lv2" sid="191041014890842">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240363141035633" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Erwin\Pictures\Screenshots\Cuplikan layar 2024-12-02 100345.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout-folder name="Materi Pecahan - done">
+        <layout-folder name="Materi Bilangan">
+            <layout-folder name="Materi">
+                <layout>Materi Bilangan Layout.xml</layout>
+                <layout>Materi Operasi - Tambah.xml</layout>
+                <layout>Materi Operasi - Pengurangan.xml</layout>
+                <layout>Materi Operasi - Perkalian.xml</layout>
+                <layout>Materi Operasi - Pembagian.xml</layout>
+            </layout-folder>
+            <layout-folder name="Soal">
+                <layout-folder name="Level 1">
+                    <layout>Kuis Bilangan Operasi.xml</layout>
+                    <layout>Kuis Bilangan Operasi 2.xml</layout>
+                    <layout>Kuis Bilangan Operasi 3.xml</layout>
+                    <layout>Kuis Bilangan Operasi 4.xml</layout>
+                    <layout>Kuis Bilangan Operasi 5.xml</layout>
+                    <layout>Kuis Bilangan Operasi 6.xml</layout>
+                    <layout>Kuis Bilangan Operasi 7.xml</layout>
+                    <layout>Kuis Bilangan Operasi 8.xml</layout>
+                    <layout>Kuis Bilangan Operasi 9.xml</layout>
+                    <layout>Kuis Bilangan Operasi 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis Bilangan No 1 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 2 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 3 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 4 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 5 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 6 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 7 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 8 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 9 Lv2.xml</layout>
+                    <layout>Kuis Bilangan No 10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan Soal Operasi 1.xml</layout>
+                    <layout>Penjelasan Soal Operasi 2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 3.xml</layout>
+                    <layout>Penjelasan Soal Operasi 4.xml</layout>
+                    <layout>Penjelasan Soal Operasi 5.xml</layout>
+                    <layout>Penjelasan Soal Operasi 6.xml</layout>
+                    <layout>Penjelasan Soal Operasi 7.xml</layout>
+                    <layout>Penjelasan Soal Operasi 8.xml</layout>
+                    <layout>Penjelasan Soal Operasi 9.xml</layout>
+                    <layout>Penjelasan Soal Operasi 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan Soal Operasi 1 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 2 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 3 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 4 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 5 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 6 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 7 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 8 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 9 Lv2.xml</layout>
+                    <layout>Penjelasan Soal Operasi 10 Lv2.xml</layout>
+                </layout-folder>
+                <layout>Jawaban Salah Operasi.xml</layout>
+            </layout-folder>
+            <layout>Pilih Level Bilangan.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Data">
+            <layout-folder name="Kuis">
+                <layout-folder name="Level 1">
+                    <layout>Kuis Data No 1.xml</layout>
+                    <layout>Kuis Data No 2.xml</layout>
+                    <layout>Kuis Data No 3.xml</layout>
+                    <layout>Kuis Data No 4.xml</layout>
+                    <layout>Kuis Data No 5.xml</layout>
+                    <layout>Kuis Data No 6.xml</layout>
+                    <layout>Kuis Data No 7.xml</layout>
+                    <layout>Kuis Data No 8.xml</layout>
+                    <layout>Kuis Data No 9.xml</layout>
+                    <layout>Kuis Data No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis Data No1 Lv2.xml</layout>
+                    <layout>Kuis Data No2 Lv2.xml</layout>
+                    <layout>Kuis Data No3 Lv2.xml</layout>
+                    <layout>Kuis Data No4 Lv2.xml</layout>
+                    <layout>Kuis Data No5 Lv2.xml</layout>
+                    <layout>Kuis Data No6 Lv2.xml</layout>
+                    <layout>Kuis Data No7 Lv2.xml</layout>
+                    <layout>Kuis Data No8 Lv2.xml</layout>
+                    <layout>Kuis Data No9 Lv2.xml</layout>
+                    <layout>Kuis Data No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Mengenal Data.xml</layout>
+                <layout>Membaca Data.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan Data No 1.xml</layout>
+                    <layout>Penjelasan Data No 2.xml</layout>
+                    <layout>Penjelasan Data No 3.xml</layout>
+                    <layout>Penjelasan Data No 4.xml</layout>
+                    <layout>Penjelasan Data No 5.xml</layout>
+                    <layout>Penjelasan Data No 6.xml</layout>
+                    <layout>Penjelasan Data No 7.xml</layout>
+                    <layout>Penjelasan Data No 8.xml</layout>
+                    <layout>Penjelasan Data No 9.xml</layout>
+                    <layout>Penjelasan Data No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan Data No1 Lv2.xml</layout>
+                    <layout>Penjelasan Data No2 Lv2.xml</layout>
+                    <layout>Penjelasan Data No3 Lv2.xml</layout>
+                    <layout>Penjelasan Data No4 Lv2.xml</layout>
+                    <layout>Penjelasan Data No5 Lv2.xml</layout>
+                    <layout>Penjelasan Data No6 Lv2.xml</layout>
+                    <layout>Penjelasan Data No7 Lv2.xml</layout>
+                    <layout>Penjelasan Data No8 Lv2.xml</layout>
+                    <layout>Penjelasan Data No9 Lv2.xml</layout>
+                    <layout>Penjelasan Data No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout>Data Layout.xml</layout>
+            <layout>Pilih Level Data.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Bangun Datar">
+            <layout-folder name="Kuis">
+                <layout-folder name="Level 1">
+                    <layout>Kuis Bangun Datar No 1.xml</layout>
+                    <layout>Kuis Bangun Datar No 2.xml</layout>
+                    <layout>Kuis Bangun Datar No 3.xml</layout>
+                    <layout>Kuis Bangun Datar No 4.xml</layout>
+                    <layout>Kuis Bangun Datar No 5.xml</layout>
+                    <layout>Kuis Bangun Datar No 6.xml</layout>
+                    <layout>Kuis Bangun Datar No 7.xml</layout>
+                    <layout>Kuis Bangun Datar No 8.xml</layout>
+                    <layout>Kuis Bangun Datar No 9.xml</layout>
+                    <layout>Kuis Bangun Datar No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis BangunDatar No1 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No2 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No3 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No4 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No5 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No6 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No7 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No8 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No9 Lv2.xml</layout>
+                    <layout>Kuis BangunDatar No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Segi Banyak.xml</layout>
+                <layout>Menghitung Luas Keliling.xml</layout>
+                <layout>Hubungan Antar Garis.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan BDatar No 1.xml</layout>
+                    <layout>Penjelasan BDatar No 2.xml</layout>
+                    <layout>Penjelasan BDatar No 3.xml</layout>
+                    <layout>Penjelasan BDatar No 4.xml</layout>
+                    <layout>Penjelasan BDatar No 5.xml</layout>
+                    <layout>Penjelasan BDatar No 6.xml</layout>
+                    <layout>Penjelasan BDatar No 7.xml</layout>
+                    <layout>Penjelasan BDatar No 8.xml</layout>
+                    <layout>Penjelasan BDatar No 9.xml</layout>
+                    <layout>Penjelasan BDatar No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan BDatar No1 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No2 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No3 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No4 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No5 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No6 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No7 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No8 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No9 Lv2.xml</layout>
+                    <layout>Penjelasan BDatar No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout>Bangun Datar Layout.xml</layout>
+            <layout>Pilih Level Bangun Datar.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Panjang Berat">
+            <layout-folder name="Kuis">
+                <layout-folder name="Level 1">
+                    <layout>Kuis Panjang Berat No 1.xml</layout>
+                    <layout>Kuis Panjang Berat No 2.xml</layout>
+                    <layout>Kuis Panjang Berat No 3.xml</layout>
+                    <layout>Kuis Panjang Berat No 4.xml</layout>
+                    <layout>Kuis Panjang Berat No 5.xml</layout>
+                    <layout>Kuis Panjang Berat No 6.xml</layout>
+                    <layout>Kuis Panjang Berat No 7.xml</layout>
+                    <layout>Kuis Panjang Berat No 8.xml</layout>
+                    <layout>Kuis Panjang Berat No 9.xml</layout>
+                    <layout>Kuis Panjang Berat No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Kuis PBerat No1 Lv2.xml</layout>
+                    <layout>Kuis PBerat No2 Lv2.xml</layout>
+                    <layout>Kuis PBerat No3 Lv2.xml</layout>
+                    <layout>Kuis PBerat No4 Lv2.xml</layout>
+                    <layout>Kuis PBerat No5 Lv2.xml</layout>
+                    <layout>Kuis PBerat No6 Lv2.xml</layout>
+                    <layout>Kuis PBerat No7 Lv2.xml</layout>
+                    <layout>Kuis PBerat No8 Lv2.xml</layout>
+                    <layout>Kuis PBerat No9 Lv2.xml</layout>
+                    <layout>Kuis PBerat No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout-folder name="Materi">
+                <layout>Pengukuran Panjang.xml</layout>
+                <layout>Pengukuran Berat.xml</layout>
+            </layout-folder>
+            <layout-folder name="Penjelasan">
+                <layout-folder name="Level 1">
+                    <layout>Penjelasan PBerat No 1.xml</layout>
+                    <layout>Penjelasan PBerat No 2.xml</layout>
+                    <layout>Penjelasan PBerat No 3.xml</layout>
+                    <layout>Penjelasan PBerat No 4.xml</layout>
+                    <layout>Penjelasan PBerat No 5.xml</layout>
+                    <layout>Penjelasan PBerat No 6.xml</layout>
+                    <layout>Penjelasan PBerat No 7.xml</layout>
+                    <layout>Penjelasan PBerat No 8.xml</layout>
+                    <layout>Penjelasan PBerat No 9.xml</layout>
+                    <layout>Penjelasan PBerat No 10.xml</layout>
+                </layout-folder>
+                <layout-folder name="Level 2">
+                    <layout>Penjelasan PBerat No1 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No2 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No3 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No4 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No5 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No6 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No7 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No8 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No9 Lv2.xml</layout>
+                    <layout>Penjelasan PBerat No10 Lv2.xml</layout>
+                </layout-folder>
+            </layout-folder>
+            <layout>Panjang Berat Layout.xml</layout>
+            <layout>Pilih Level Panjang Berat.xml</layout>
+        </layout-folder>
+        <layout-folder name="Materi Pecahan">
             <layout-folder name="Kuis">
                 <layout-folder name="Level 1">
                     <layout>Kuis Pecahan No 1.xml</layout>
@@ -2976,250 +3687,6 @@
             </layout-folder>
             <layout>Kelipatan Faktor Bilangan Layout.xml</layout>
             <layout>Pilih Level KPK.xml</layout>
-        </layout-folder>
-        <layout-folder name="Materi Panjang Berat">
-            <layout-folder name="Kuis">
-                <layout-folder name="Level 1">
-                    <layout>Kuis Panjang Berat No 1.xml</layout>
-                    <layout>Kuis Panjang Berat No 2.xml</layout>
-                    <layout>Kuis Panjang Berat No 3.xml</layout>
-                    <layout>Kuis Panjang Berat No 4.xml</layout>
-                    <layout>Kuis Panjang Berat No 5.xml</layout>
-                    <layout>Kuis Panjang Berat No 6.xml</layout>
-                    <layout>Kuis Panjang Berat No 7.xml</layout>
-                    <layout>Kuis Panjang Berat No 8.xml</layout>
-                    <layout>Kuis Panjang Berat No 9.xml</layout>
-                    <layout>Kuis Panjang Berat No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Kuis PBerat No1 Lv2.xml</layout>
-                    <layout>Kuis PBerat No2 Lv2.xml</layout>
-                    <layout>Kuis PBerat No3 Lv2.xml</layout>
-                    <layout>Kuis PBerat No4 Lv2.xml</layout>
-                    <layout>Kuis PBerat No5 Lv2.xml</layout>
-                    <layout>Kuis PBerat No6 Lv2.xml</layout>
-                    <layout>Kuis PBerat No7 Lv2.xml</layout>
-                    <layout>Kuis PBerat No8 Lv2.xml</layout>
-                    <layout>Kuis PBerat No9 Lv2.xml</layout>
-                    <layout>Kuis PBerat No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout-folder name="Materi">
-                <layout>Pengukuran Panjang.xml</layout>
-                <layout>Pengukuran Berat.xml</layout>
-            </layout-folder>
-            <layout-folder name="Penjelasan">
-                <layout-folder name="Level 1">
-                    <layout>Penjelasan PBerat No 1.xml</layout>
-                    <layout>Penjelasan PBerat No 2.xml</layout>
-                    <layout>Penjelasan PBerat No 3.xml</layout>
-                    <layout>Penjelasan PBerat No 4.xml</layout>
-                    <layout>Penjelasan PBerat No 5.xml</layout>
-                    <layout>Penjelasan PBerat No 6.xml</layout>
-                    <layout>Penjelasan PBerat No 7.xml</layout>
-                    <layout>Penjelasan PBerat No 8.xml</layout>
-                    <layout>Penjelasan PBerat No 9.xml</layout>
-                    <layout>Penjelasan PBerat No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Penjelasan PBerat No1 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No2 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No3 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No4 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No5 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No6 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No7 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No8 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No9 Lv2.xml</layout>
-                    <layout>Penjelasan PBerat No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout>Panjang Berat Layout.xml</layout>
-            <layout>Pilih Level Panjang Berat.xml</layout>
-        </layout-folder>
-        <layout-folder name="Materi Bangun Datar - done">
-            <layout-folder name="Kuis">
-                <layout-folder name="Level 1">
-                    <layout>Kuis Bangun Datar No 1.xml</layout>
-                    <layout>Kuis Bangun Datar No 2.xml</layout>
-                    <layout>Kuis Bangun Datar No 3.xml</layout>
-                    <layout>Kuis Bangun Datar No 4.xml</layout>
-                    <layout>Kuis Bangun Datar No 5.xml</layout>
-                    <layout>Kuis Bangun Datar No 6.xml</layout>
-                    <layout>Kuis Bangun Datar No 7.xml</layout>
-                    <layout>Kuis Bangun Datar No 8.xml</layout>
-                    <layout>Kuis Bangun Datar No 9.xml</layout>
-                    <layout>Kuis Bangun Datar No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Kuis BangunDatar No1 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No2 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No3 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No4 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No5 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No6 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No7 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No8 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No9 Lv2.xml</layout>
-                    <layout>Kuis BangunDatar No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout-folder name="Materi">
-                <layout>Segi Banyak.xml</layout>
-                <layout>Menghitung Luas Keliling.xml</layout>
-                <layout>Hubungan Antar Garis.xml</layout>
-            </layout-folder>
-            <layout-folder name="Penjelasan">
-                <layout-folder name="Level 1">
-                    <layout>Penjelasan BDatar No 1.xml</layout>
-                    <layout>Penjelasan BDatar No 2.xml</layout>
-                    <layout>Penjelasan BDatar No 3.xml</layout>
-                    <layout>Penjelasan BDatar No 4.xml</layout>
-                    <layout>Penjelasan BDatar No 5.xml</layout>
-                    <layout>Penjelasan BDatar No 6.xml</layout>
-                    <layout>Penjelasan BDatar No 7.xml</layout>
-                    <layout>Penjelasan BDatar No 8.xml</layout>
-                    <layout>Penjelasan BDatar No 9.xml</layout>
-                    <layout>Penjelasan BDatar No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Penjelasan BDatar No1 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No2 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No3 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No4 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No5 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No6 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No7 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No8 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No9 Lv2.xml</layout>
-                    <layout>Penjelasan BDatar No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout>Bangun Datar Layout.xml</layout>
-            <layout>Pilih Level Bangun Datar.xml</layout>
-        </layout-folder>
-        <layout-folder name="Materi Data - done">
-            <layout-folder name="Kuis">
-                <layout-folder name="Level 1">
-                    <layout>Kuis Data No 1.xml</layout>
-                    <layout>Kuis Data No 2.xml</layout>
-                    <layout>Kuis Data No 3.xml</layout>
-                    <layout>Kuis Data No 4.xml</layout>
-                    <layout>Kuis Data No 5.xml</layout>
-                    <layout>Kuis Data No 6.xml</layout>
-                    <layout>Kuis Data No 7.xml</layout>
-                    <layout>Kuis Data No 8.xml</layout>
-                    <layout>Kuis Data No 9.xml</layout>
-                    <layout>Kuis Data No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Kuis Data No1 Lv2.xml</layout>
-                    <layout>Kuis Data No2 Lv2.xml</layout>
-                    <layout>Kuis Data No3 Lv2.xml</layout>
-                    <layout>Kuis Data No4 Lv2.xml</layout>
-                    <layout>Kuis Data No5 Lv2.xml</layout>
-                    <layout>Kuis Data No6 Lv2.xml</layout>
-                    <layout>Kuis Data No7 Lv2.xml</layout>
-                    <layout>Kuis Data No8 Lv2.xml</layout>
-                    <layout>Kuis Data No9 Lv2.xml</layout>
-                    <layout>Kuis Data No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout-folder name="Materi">
-                <layout>Mengenal Data.xml</layout>
-                <layout>Membaca Data.xml</layout>
-            </layout-folder>
-            <layout-folder name="Penjelasan">
-                <layout-folder name="Level 1">
-                    <layout>Penjelasan Data No 1.xml</layout>
-                    <layout>Penjelasan Data No 2.xml</layout>
-                    <layout>Penjelasan Data No 3.xml</layout>
-                    <layout>Penjelasan Data No 4.xml</layout>
-                    <layout>Penjelasan Data No 5.xml</layout>
-                    <layout>Penjelasan Data No 7.xml</layout>
-                    <layout>Penjelasan Data No 6.xml</layout>
-                    <layout>Penjelasan Data No 8.xml</layout>
-                    <layout>Penjelasan Data No 9.xml</layout>
-                    <layout>Penjelasan Data No 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Penjelasan Data No1 Lv2.xml</layout>
-                    <layout>Penjelasan Data No2 Lv2.xml</layout>
-                    <layout>Penjelasan Data No3 Lv2.xml</layout>
-                    <layout>Penjelasan Data No4 Lv2.xml</layout>
-                    <layout>Penjelasan Data No5 Lv2.xml</layout>
-                    <layout>Penjelasan Data No6 Lv2.xml</layout>
-                    <layout>Penjelasan Data No7 Lv2.xml</layout>
-                    <layout>Penjelasan Data No8 Lv2.xml</layout>
-                    <layout>Penjelasan Data No9 Lv2.xml</layout>
-                    <layout>Penjelasan Data No10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout>Data Layout.xml</layout>
-            <layout>Pilih Level Data.xml</layout>
-        </layout-folder>
-        <layout-folder name="Materi Bilangan - done">
-            <layout-folder name="Materi">
-                <layout>Materi Bilangan Layout.xml</layout>
-                <layout>Materi Operasi - Tambah.xml</layout>
-                <layout>Materi Operasi - Pengurangan.xml</layout>
-                <layout>Materi Operasi - Perkalian.xml</layout>
-                <layout>Materi Operasi - Pembagian.xml</layout>
-            </layout-folder>
-            <layout-folder name="Soal">
-                <layout-folder name="Level 1">
-                    <layout>Kuis Bilangan Operasi.xml</layout>
-                    <layout>Kuis Bilangan Operasi 2.xml</layout>
-                    <layout>Kuis Bilangan Operasi 3.xml</layout>
-                    <layout>Kuis Bilangan Operasi 4.xml</layout>
-                    <layout>Kuis Bilangan Operasi 5.xml</layout>
-                    <layout>Kuis Bilangan Operasi 6.xml</layout>
-                    <layout>Kuis Bilangan Operasi 7.xml</layout>
-                    <layout>Kuis Bilangan Operasi 8.xml</layout>
-                    <layout>Kuis Bilangan Operasi 9.xml</layout>
-                    <layout>Kuis Bilangan Operasi 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Kuis Bilangan No 1 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 2 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 3 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 4 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 5 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 6 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 7 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 8 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 9 Lv2.xml</layout>
-                    <layout>Kuis Bilangan No 10 Lv2.xml</layout>
-                </layout-folder>
-            </layout-folder>
-            <layout-folder name="Penjelasan">
-                <layout-folder name="Level 1">
-                    <layout>Penjelasan Soal Operasi 1.xml</layout>
-                    <layout>Penjelasan Soal Operasi 2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 3.xml</layout>
-                    <layout>Penjelasan Soal Operasi 4.xml</layout>
-                    <layout>Penjelasan Soal Operasi 5.xml</layout>
-                    <layout>Penjelasan Soal Operasi 6.xml</layout>
-                    <layout>Penjelasan Soal Operasi 7.xml</layout>
-                    <layout>Penjelasan Soal Operasi 8.xml</layout>
-                    <layout>Penjelasan Soal Operasi 9.xml</layout>
-                    <layout>Penjelasan Soal Operasi 10.xml</layout>
-                </layout-folder>
-                <layout-folder name="Level 2">
-                    <layout>Penjelasan Soal Operasi 1 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 2 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 3 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 4 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 5 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 6 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 7 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 8 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 9 Lv2.xml</layout>
-                    <layout>Penjelasan Soal Operasi 10 Lv2.xml</layout>
-                </layout-folder>
-                <layout>Jawaban Salah Operasi.xml</layout>
-            </layout-folder>
-            <layout>Pilih Level Bilangan.xml</layout>
         </layout-folder>
         <layout>Home Layout.xml</layout>
         <layout>List Materi Layout.xml</layout>
@@ -3635,6 +4102,7 @@
             </properties>
         </global-instance>
         <global-instance type="no10BDLv2" uid="2269" />
+        <global-instance type="pnPch6Lv1" uid="2576" />
     </global-instances>
     <sounds-folder>
         <file name="Kids Children Funny Cute Background Music.m4a" />

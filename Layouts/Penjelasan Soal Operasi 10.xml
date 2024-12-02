@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="707">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Hasil dari 45 x 7 adalah 315.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>

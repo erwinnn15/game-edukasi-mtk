@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="textPenjelasan" uid="611">
                     <properties>
-                        <text>Disini berisi text penjelasan .....</text>
+                        <text>Karena semua pecahan memiliki penyebut yang sama, yaitu 9, kita hanya perlu membandingkan pembilangnya (angka di atas garis pecahan). Semakin kecil pembilangnya, semakin kecil nilai pecahan tersebut.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-24,400,0</font>
                         <color>0,0,0</color>
@@ -89,10 +89,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>299</x>
-                        <y>190</y>
+                        <y>163.45866394</y>
                         <z>0</z>
                         <width>692</width>
-                        <height>239</height>
+                        <height>134.522460938</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -180,6 +180,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="penjelasanPch10lLv1" uid="2581">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>639</x>
+                        <y>368</y>
+                        <z>0</z>
+                        <width>576.003479004</width>
+                        <height>142.620666504</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.503225803</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -380,7 +380,7 @@
                 </instance>
                 <instance type="textSoalDataNo1" uid="1188">
                     <properties>
-                        <text>Diagram yang biasanya digunakan untuk menyajikan data</text>
+                        <text>Diagram yang biasanya digunakan untuk menyajikan data kategori/perbandingan</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-34.6667,400,0</font>
                         <color>0,0,51</color>
